@@ -5,6 +5,9 @@ on:
     - cron: '0 8 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   radar:
     runs-on: ubuntu-latest
@@ -20,7 +23,6 @@ jobs:
 
       - name: Generate radar
         run: node radar.js
-        working-directory: ${{ github.workspace }}
 
       - name: Commit and push changes
         run: |
