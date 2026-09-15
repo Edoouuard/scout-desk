@@ -41,6 +41,14 @@ h1{font-family:var(--serif);font-weight:500;font-size:30px;margin:0}h2{font-fami
 .tag.fresh{background:var(--fresh-soft);color:var(--fresh-ink);border-color:transparent}
 .tag.intro{background:var(--teal-soft);color:var(--teal);border-color:transparent}
 .tag.warn{background:var(--rose-soft);color:var(--rose);border-color:transparent}
+.tag.o-sourced{background:#e3ebfa;color:#2b4c9b;border-color:transparent}.tag.o-fund-intro{background:var(--teal-soft);color:var(--teal);border-color:transparent}.tag.o-inbound{background:#ece4f7;color:#6b3fa0;border-color:transparent}.tag.o-radar{background:var(--fresh-soft);color:var(--fresh-ink);border-color:transparent}
+.tag.s0{background:#e6eef9;color:#2f5ea8}.tag.s1{background:#e4f3ec;color:#1f7a4d}.tag.s2{background:#fbeede;color:#9a5a12}.tag.s3{background:#f2e6f5;color:#7a3d8a}.tag.s4{background:#e6f2f5;color:#1d6b7d}.tag.s5{background:#f7e8e6;color:#9a3b33}.tag.s6{background:#eef0e0;color:#5f6b1a}.tag.s7{background:#e8e8f2;color:#4a4f8f}
+:root[data-theme="dark"] .tag[class*=" s"],:root[data-theme="dark"] .tag.o-sourced,:root[data-theme="dark"] .tag.o-inbound{filter:brightness(.75) saturate(1.2)}
+.tag.s0,.tag.s1,.tag.s2,.tag.s3,.tag.s4,.tag.s5,.tag.s6,.tag.s7,.tag[class*="o-"]{border-color:transparent}
+.tagrow{display:flex;gap:4px;flex-wrap:wrap;margin-top:6px}
+.radar li{padding:12px 0;border-top:1px solid var(--line2)}.radar li:first-child{border-top:0}
+.rtitle{font-weight:500}.rtitle a{color:var(--ink);text-decoration:none}.rtitle a:hover{text-decoration:underline}
+.rsum{font-size:12px;color:var(--ink2);margin-top:3px;max-width:80ch}
 .score{display:inline-flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums;font-size:12px;color:var(--ink2)}
 .score i{display:inline-block;width:52px;height:5px;background:var(--line2);border-radius:3px;overflow:hidden}.score i b{display:block;height:100%;background:var(--teal)}
 .empty{padding:36px 20px;text-align:center;color:var(--ink2)}.empty p{max-width:46ch;margin:6px auto 14px}
@@ -82,6 +90,7 @@ td{padding:10px;border-bottom:1px solid var(--line2);vertical-align:top}tr.r{cur
   <nav>
     <div class="brand">Scout desk<small id="brandSub">private dealflow workspace</small></div>
     <button class="navbtn" data-view="digest">Daily digest <span class="n" id="nDigest">0</span></button>
+    <button class="navbtn" data-view="radar">Radar <span class="n" id="nRadar">–</span></button>
     <button class="navbtn" data-view="inbox">Inbox <span class="n" id="nInbox">0</span></button>
     <button class="navbtn" data-view="board">Deal board <span class="n" id="nBoard">0</span></button>
     <button class="navbtn" data-view="founders">Founders <span class="n" id="nFounders">0</span></button>
@@ -138,6 +147,16 @@ function rank(d){return Math.round(relevance(d)*(0.35+0.65*freshness(d)));}
 const sorted=arr=>arr.slice().sort((a,b)=>rank(b)-rank(a));
 const active=()=>Object.values(deals).filter(d=>!d.archived);
 const stageLabel=k=>(STAGES.find(s=>s[0]===k)||["","?"])[1];
+const ORIGIN_LABEL={"sourced":"Sourced","fund-intro":"Fund intro","inbound":"Inbound","radar":"Radar"};
+const sectorsOf=d=>String(d.sector||"").split(/[\/,;|]+/).map(x=>x.trim()).filter(Boolean);
+const sectorClass=name=>{let h=0;for(const c of name.toLowerCase())h=(h*31+c.charCodeAt(0))>>>0;return "s"+(h%8);};
+const sectorTag=name=>`<span class="tag ${sectorClass(name)}">${esc(name)}</span>`;
+const originTag=d=>`<span class="tag o-${esc(d.origin||"sourced")}">${esc(d.origin==="fund-intro"&&d.referredBy?d.referredBy:(d.origin==="radar"&&d.sourceName?"Radar · "+d.sourceName:ORIGIN_LABEL[d.origin]||"Sourced"))}</span>`;
+const tagRow=d=>`<div class="tagrow">${originTag(d)}${sectorsOf(d).map(sectorTag).join("")}</div>`;
+let radar={status:"loading",items:[],generatedAt:null};let radarDismissed=new Set();try{radarDismissed=new Set(JSON.parse(localStorage.getItem("scoutdesk.radar.dismissed")||"[]"));}catch(e){}
+function saveDismissed(){try{localStorage.setItem("scoutdesk.radar.dismissed",JSON.stringify([...radarDismissed]));}catch(e){}}
+const radarPending=()=>{const links=new Set(Object.values(deals).map(d=>d.sourceUrl));return radar.items.filter(i=>!radarDismissed.has(i.link)&&!links.has(i.link));};
+async function loadRadar(){try{const r=await fetch("radar.json",{cache:"no-store"});if(!r.ok)throw new Error(r.status);const j=await r.json();radar={status:"ok",items:j.items||[],generatedAt:j.generatedAt};}catch(e){radar={status:"missing",items:[],generatedAt:null};}render();}
 
 function slackFor(list,title){const L=[`*${title}*`];list.forEach(d=>{L.push(`• *${d.company}* — ${d.oneLiner||""} _(${d.stage||"stage ?"}${d.amount?", "+d.amount:""}, score ${rank(d)})_`);const links=[d.website?`<${d.website}|website>`:"",d.sourceUrl?`<${d.sourceUrl}|${d.sourceName||"source"}>`:"",...(d.founders||[]).filter(f=>f.linkedin).map(f=>`<${f.linkedin}|${f.name}>`)].filter(Boolean);if(links.length)L.push("   "+links.join(" · "));if(d.origin==="fund-intro")L.push(`   via ${d.referredBy||"fund intro"}`);});return L.join("\n");}
 
@@ -149,9 +168,10 @@ function render(){
   document.getElementById("nBoard").textContent=all.length;
   document.getElementById("nFounders").textContent=all.reduce((n,d)=>n+(d.founders||[]).length,0);
   document.getElementById("nOutreach").textContent=all.filter(d=>d.draft).length;
+  document.getElementById("nRadar").textContent=radar.status==="ok"?radarPending().length:"–";
   document.getElementById("brandSub").textContent=thesis.fund?thesis.fund+" · scout desk":"private dealflow workspace";
   const m=document.getElementById("main");
-  ({digest,inbox,board,founders,outreach,sources,thesis:thesisView})[view](m);
+  ({digest,radar:radarView,inbox,board,founders,outreach,sources,thesis:thesisView})[view](m);
 }
 
 function digest(m){
@@ -173,35 +193,56 @@ function digest(m){
   m.querySelector("#btnSlack").onclick=()=>{m.querySelector("#slackOut").classList.remove("hidden");m.querySelector("#slackText").textContent=slackFor(fresh.length?fresh:all.slice(0,8),`Deal flow digest — ${dateStr}`);};
   m.querySelector("#copySlack").onclick=()=>copy(m.querySelector("#slackText").textContent);
 }
-function dealItem(d){const f=d.founders||[];return`<li><div class="dname"><a href="#" data-open="${d.id}">${esc(d.company)}</a>${now()-(d.signalDate||d.addedAt)<3*864e5?'<span class="tag fresh">new</span>':""}${d.origin==="fund-intro"?`<span class="tag intro">${esc(d.referredBy||"intro")}</span>`:""}<span class="score" title="relevance ${relevance(d)} × freshness">${rank(d)}<i><b style="width:${rank(d)}%"></b></i></span></div>
+function dealItem(d){const f=d.founders||[];return`<li><div class="dname"><a href="#" data-open="${d.id}">${esc(d.company)}</a>${now()-(d.signalDate||d.addedAt)<3*864e5?'<span class="tag fresh">new</span>':""}<span class="score" title="relevance ${relevance(d)} × freshness">${rank(d)}<i><b style="width:${rank(d)}%"></b></i></span></div>
 <div class="dmeta">${esc([d.signalType,d.stage,d.amount,d.geo].filter(Boolean).join(" · "))} · ${ago(d.signalDate||d.addedAt)}${f.length?` · ${esc(f.map(x=>x.name).join(", "))}`:""}</div>
-<div class="dline">${esc(d.oneLiner||"")}</div>
+<div class="dline">${esc(d.oneLiner||"")}</div>${tagRow(d)}
 <div class="dacts row">${d.website?`<a class="small" href="${esc(d.website)}" target="_blank" rel="noopener">${esc(hostOf(d.website))}</a>`:""}${d.sourceUrl?`<a class="small" href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">${esc(d.sourceName||hostOf(d.sourceUrl))}</a>`:""}${f.filter(x=>x.linkedin).map(x=>`<a class="small" href="${esc(x.linkedin)}" target="_blank" rel="noopener">${esc(x.name.split(" ")[0])} · LinkedIn</a>`).join("")}
 <button class="btn sm ghost" data-move="${d.id}:reviewing">Review</button><button class="btn sm ghost" data-draft="${d.id}">Draft outreach</button><button class="btn sm ghost" data-move="${d.id}:passed">Pass</button></div></li>`;}
 
-let F={q:"",stage:"",origin:"",type:""};
+let F={q:"",stage:"",origin:"",type:"",sector:""};
+let RF={q:"",type:"",sector:"",min:35};
+function radarView(m){
+  let items=radarPending();
+  const q=RF.q.toLowerCase();if(q)items=items.filter(i=>(i.title+" "+i.summary+" "+i.source).toLowerCase().includes(q));
+  if(RF.type)items=items.filter(i=>i.signalType===RF.type);if(RF.sector)items=items.filter(i=>(i.sectors||[]).includes(RF.sector));
+  items=items.filter(i=>i.score>=RF.min).sort((a,b)=>(b.score-a.score)||(new Date(b.date)-new Date(a.date)));
+  const gen=radar.generatedAt?new Date(radar.generatedAt):null;
+  m.innerHTML=`<div class="topbar"><div><h1>Radar</h1><p class="sub">${radar.status==="ok"?`Signals found automatically from public feeds${gen?` · last scan ${ago(gen.getTime())}`:""} · ${items.length} shown, ${radarDismissed.size} dismissed.`:radar.status==="loading"?"Loading…":"No radar data yet — set up the GitHub Action (see below)."}</p></div><div class="row"><button class="btn" id="rRefresh">Refresh</button>${radarDismissed.size?`<button class="btn ghost" id="rUndismiss">Restore dismissed</button>`:""}</div></div>
+  ${radar.status==="missing"?`<div class="panel pad" style="max-width:70ch"><h2>Turn the radar on</h2><ol class="small" style="margin:0;padding-left:18px;line-height:1.8"><li>Push <code>radar/radar.js</code>, <code>radar.config.json</code>, <code>radar.json</code> and <code>.github/workflows/radar.yml</code> to the repo.</li><li>GitHub → Actions → Radar → <b>Run workflow</b> once. It then runs every 6 hours.</li><li>Each run commits a fresh <code>radar.json</code>; Vercel redeploys; this tab fills up.</li></ol></div>`:`
+  <div class="filters"><input type="search" id="rq" placeholder="Search radar…" value="${esc(RF.q)}"><select id="rType"><option value="">Any signal</option>${["Funding announcement","Product launch","Stealth exit","Other"].map(t=>`<option ${RF.type===t?"selected":""}>${t}</option>`).join("")}</select><select id="rSector"><option value="">Any sector</option>${[...new Set(radar.items.flatMap(i=>i.sectors||[]))].sort().map(x=>`<option ${RF.sector===x?"selected":""}>${esc(x)}</option>`).join("")}</select><select id="rMin"><option value="35" ${RF.min===35?"selected":""}>Score ≥ 35</option><option value="50" ${RF.min===50?"selected":""}>Score ≥ 50</option><option value="70" ${RF.min===70?"selected":""}>Score ≥ 70</option></select></div>
+  <div class="panel pad">${items.length?`<ul class="dlist radar">${items.map((i,idx)=>`<li><div class="row" style="justify-content:space-between"><div class="rtitle"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></div><span class="score">${i.score}<i><b style="width:${i.score}%"></b></i></span></div>
+  <div class="rsum">${esc(i.summary||"")}</div>
+  <div class="tagrow"><span class="tag o-radar">Radar · ${esc(i.source)}</span>${(i.sectors||[]).map(sectorTag).join("")}${i.stage?`<span class="tag">${esc(i.stage)}</span>`:""}${i.amount?`<span class="tag">${esc(i.amount)}</span>`:""}<span class="tag">${esc(i.signalType)}</span><span class="small muted">${ago(new Date(i.date).getTime())}</span></div>
+  <div class="dacts row"><button class="btn sm primary" data-radd="${idx}">Add to inbox</button>${i.discussion?`<a class="btn sm ghost" href="${esc(i.discussion)}" target="_blank" rel="noopener">Discussion</a>`:""}<button class="btn sm ghost" data-rdis="${idx}">Dismiss</button></div></li>`).join("")}</ul>`:`<div class="empty"><h2>Nothing matches</h2><p>Lower the score threshold or clear a filter. The radar rescans every 6 hours.</p></div>`}</div>`}`;
+  m.querySelector("#rRefresh").onclick=()=>{radar.status="loading";render();loadRadar();};
+  const un=m.querySelector("#rUndismiss");if(un)un.onclick=()=>{radarDismissed=new Set();saveDismissed();render();};
+  const rq=m.querySelector("#rq");if(rq){rq.oninput=()=>{RF.q=rq.value;render();const n=document.getElementById("rq");n.focus();n.setSelectionRange(n.value.length,n.value.length);};m.querySelector("#rType").onchange=e=>{RF.type=e.target.value;render();};m.querySelector("#rSector").onchange=e=>{RF.sector=e.target.value;render();};m.querySelector("#rMin").onchange=e=>{RF.min=+e.target.value;render();};}
+  m.querySelectorAll("[data-radd]").forEach(b=>b.onclick=()=>{const i=items[+b.dataset.radd];const d=normalize({id:uid(),company:i.company||i.title.slice(0,60),website:"",oneLiner:i.title,signalType:i.signalType==="Stealth exit"?"Stealth":i.signalType==="Product launch"?"Product launch":i.signalType==="Funding announcement"?"Funding announcement":"Other",signalDate:i.date,origin:"radar",referredBy:"",sourceUrl:i.link,sourceName:i.source,sector:(i.sectors||[]).join(" / "),geo:"",stage:i.stage||"",amount:i.amount||"",investors:"",founders:[],tags:[],stage_k:"new",notes:i.summary?[{at:Date.now(),text:i.summary}]:[]});deals[d.id]=d;save();selectedId=d.id;toast(`${d.company} added to inbox`);render();});
+  m.querySelectorAll("[data-rdis]").forEach(b=>b.onclick=()=>{radarDismissed.add(items[+b.dataset.rdis].link);saveDismissed();render();});
+}
 function inbox(m){
   let list=active().filter(d=>!["passed","invested"].includes(d.stage_k)||F.stage);
   const q=F.q.toLowerCase();if(q)list=list.filter(d=>JSON.stringify(d).toLowerCase().includes(q));
-  if(F.stage)list=list.filter(d=>d.stage_k===F.stage);if(F.origin)list=list.filter(d=>d.origin===F.origin);if(F.type)list=list.filter(d=>d.signalType===F.type);
+  if(F.stage)list=list.filter(d=>d.stage_k===F.stage);if(F.origin)list=list.filter(d=>d.origin===F.origin);if(F.type)list=list.filter(d=>d.signalType===F.type);if(F.sector)list=list.filter(d=>sectorsOf(d).includes(F.sector));
   list=sorted(list);const sel=deals[selectedId];
   m.innerHTML=`<div class="topbar"><div><h1>Inbox</h1><p class="sub">${list.length} deal${list.length===1?"":"s"} · search founder, sector, investor, note.</p></div><div class="row"><button class="btn" id="btnExport">Export CSV</button><button class="btn primary" id="btnAdd">Add deal</button></div></div>
   <div class="inbox"><div><div class="filters"><input type="search" id="q" placeholder="Search…" value="${esc(F.q)}">
   <select id="fStage"><option value="">Any pipeline stage</option>${STAGES.map(s=>`<option value="${s[0]}" ${F.stage===s[0]?"selected":""}>${s[1]}</option>`).join("")}</select>
-  <select id="fOrigin"><option value="">Any origin</option><option value="sourced" ${F.origin==="sourced"?"selected":""}>Sourced</option><option value="fund-intro" ${F.origin==="fund-intro"?"selected":""}>Fund intro</option><option value="inbound" ${F.origin==="inbound"?"selected":""}>Inbound</option></select>
+  <select id="fOrigin"><option value="">Any origin</option><option value="sourced" ${F.origin==="sourced"?"selected":""}>Sourced</option><option value="fund-intro" ${F.origin==="fund-intro"?"selected":""}>Fund intro</option><option value="inbound" ${F.origin==="inbound"?"selected":""}>Inbound</option><option value="radar" ${F.origin==="radar"?"selected":""}>Radar</option></select>
+  <select id="fSector"><option value="">Any sector</option>${[...new Set(active().flatMap(sectorsOf))].sort().map(x=>`<option ${F.sector===x?"selected":""}>${esc(x)}</option>`).join("")}</select>
   <select id="fType"><option value="">Any signal</option>${SIGNAL_TYPES.map(t=>`<option ${F.type===t?"selected":""}>${t}</option>`).join("")}</select></div>
-  <div class="panel">${list.length?`<table><thead><tr><th>Company</th><th>Signal</th><th>Stage</th><th>Score</th><th>Seen</th></tr></thead><tbody>${list.map(d=>`<tr class="r ${d.id===selectedId?"sel":""}" data-sel="${d.id}"><td><div class="tname">${esc(d.company)} ${d.origin==="fund-intro"?`<span class="tag intro">${esc(d.referredBy||"intro")}</span>`:""}</div><div class="tline">${esc(d.oneLiner||"")}</div></td><td class="small">${esc(d.signalType||"")}<br><span class="muted">${esc(d.sector||"")}</span></td><td class="small">${stageLabel(d.stage_k)}<br><span class="muted">${esc([d.stage,d.amount].filter(Boolean).join(" · "))}</span></td><td><span class="score">${rank(d)}<i><b style="width:${rank(d)}%"></b></i></span></td><td class="small muted">${ago(d.signalDate||d.addedAt)}</td></tr>`).join("")}</tbody></table>`:`<div class="empty"><h2>Nothing matches</h2><p>Clear a filter, or add a deal.</p></div>`}</div></div>
+  <div class="panel">${list.length?`<table><thead><tr><th>Company</th><th>Signal</th><th>Stage</th><th>Score</th><th>Seen</th></tr></thead><tbody>${list.map(d=>`<tr class="r ${d.id===selectedId?"sel":""}" data-sel="${d.id}"><td><div class="tname">${esc(d.company)}</div><div class="tline">${esc(d.oneLiner||"")}</div>${tagRow(d)}</td><td class="small">${esc(d.signalType||"")}</td><td class="small">${stageLabel(d.stage_k)}<br><span class="muted">${esc([d.stage,d.amount].filter(Boolean).join(" · "))}</span></td><td><span class="score">${rank(d)}<i><b style="width:${rank(d)}%"></b></i></span></td><td class="small muted">${ago(d.signalDate||d.addedAt)}</td></tr>`).join("")}</tbody></table>`:`<div class="empty"><h2>Nothing matches</h2><p>Clear a filter, or add a deal.</p></div>`}</div></div>
   <div class="panel pad detail">${sel?detailHTML(sel):`<div class="empty"><h2>Select a deal</h2><p>Details, founder links, notes and outreach drafts live here.</p></div>`}</div></div>`;
   wire(m);
   const qi=m.querySelector("#q");qi.oninput=()=>{F.q=qi.value;render();const n=document.getElementById("q");n.focus();n.setSelectionRange(n.value.length,n.value.length);};
-  m.querySelector("#fStage").onchange=e=>{F.stage=e.target.value;render();};m.querySelector("#fOrigin").onchange=e=>{F.origin=e.target.value;render();};m.querySelector("#fType").onchange=e=>{F.type=e.target.value;render();};
+  m.querySelector("#fStage").onchange=e=>{F.stage=e.target.value;render();};m.querySelector("#fOrigin").onchange=e=>{F.origin=e.target.value;render();};m.querySelector("#fType").onchange=e=>{F.type=e.target.value;render();};m.querySelector("#fSector").onchange=e=>{F.sector=e.target.value;render();};
   m.querySelectorAll("[data-sel]").forEach(r=>r.onclick=()=>{selectedId=r.dataset.sel;render();});
   m.querySelector("#btnExport").onclick=exportCSV;
 }
 function detailHTML(d){const f=d.founders||[];return`<div class="row" style="justify-content:space-between"><h2>${esc(d.company)}</h2><button class="btn sm" data-edit="${d.id}">Edit</button></div>
 <p style="margin:0 0 6px">${esc(d.oneLiner||"")}</p>
-<div class="row"><span class="tag">${stageLabel(d.stage_k)}</span>${d.origin==="fund-intro"?`<span class="tag intro">via ${esc(d.referredBy||"fund")}</span>`:""}${(d.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}<span class="score">${rank(d)}<i><b style="width:${rank(d)}%"></b></i></span></div>
-<dl class="kv"><dt>Signal</dt><dd>${esc(d.signalType||"—")} · ${fmtDate(d.signalDate||d.addedAt)}</dd><dt>Sector</dt><dd>${esc(d.sector||"—")}</dd><dt>Round</dt><dd>${esc([d.stage,d.amount].filter(Boolean).join(" · ")||"—")}</dd><dt>Geo</dt><dd>${esc(d.geo||"—")}</dd><dt>Investors</dt><dd>${esc(d.investors||"—")}</dd><dt>Links</dt><dd class="links">${d.website?`<a href="${esc(d.website)}" target="_blank" rel="noopener">${esc(hostOf(d.website))}</a>`:""}${d.sourceUrl?`<a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">${esc(d.sourceName||hostOf(d.sourceUrl))}</a>`:""}${(!d.website&&!d.sourceUrl)?"—":""}</dd><dt>Relevance</dt><dd><input type="range" min="0" max="100" value="${relevance(d)}" data-rel="${d.id}" style="width:140px;padding:0"> <span class="mono">${relevance(d)}</span></dd></dl>
+<div class="row"><span class="tag">${stageLabel(d.stage_k)}</span>${originTag(d)}${sectorsOf(d).map(sectorTag).join("")}${(d.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}<span class="score">${rank(d)}<i><b style="width:${rank(d)}%"></b></i></span></div>
+<dl class="kv"><dt>Signal</dt><dd>${esc(d.signalType||"—")} · ${fmtDate(d.signalDate||d.addedAt)}</dd><dt>Sector</dt><dd>${sectorsOf(d).map(sectorTag).join(" ")||"—"}</dd><dt>Origin</dt><dd>${originTag(d)}${d.sourceName&&d.origin!=="radar"?` <span class="small muted">${esc(d.sourceName)}</span>`:""}</dd><dt>Round</dt><dd>${esc([d.stage,d.amount].filter(Boolean).join(" · ")||"—")}</dd><dt>Geo</dt><dd>${esc(d.geo||"—")}</dd><dt>Investors</dt><dd>${esc(d.investors||"—")}</dd><dt>Links</dt><dd class="links">${d.website?`<a href="${esc(d.website)}" target="_blank" rel="noopener">${esc(hostOf(d.website))}</a>`:""}${d.sourceUrl?`<a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">${esc(d.sourceName||hostOf(d.sourceUrl))}</a>`:""}${(!d.website&&!d.sourceUrl)?"—":""}</dd><dt>Relevance</dt><dd><input type="range" min="0" max="100" value="${relevance(d)}" data-rel="${d.id}" style="width:140px;padding:0"> <span class="mono">${relevance(d)}</span></dd></dl>
 <h2 style="font-size:16px">Founders</h2>${f.length?f.map(x=>`<div class="founder"><div class="fn">${esc(x.name)}</div><div class="small muted">${esc(x.role||"")}</div><div class="links">${x.linkedin?`<a href="${esc(x.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`:""}${x.email?`<a href="mailto:${esc(x.email)}">${esc(x.email)}</a>`:""}${x.x?`<a href="${esc(x.x)}" target="_blank" rel="noopener">X</a>`:""}</div></div>`).join(""):`<p class="muted small">No founder recorded. Edit to add names and links.</p>`}
 <div class="row" style="margin:12px 0"><select data-stagesel="${d.id}" style="width:auto">${STAGES.map(s=>`<option value="${s[0]}" ${d.stage_k===s[0]?"selected":""}>${s[1]}</option>`).join("")}</select><button class="btn sm" data-draft="${d.id}">${d.draft?"Open outreach draft":"Draft outreach"}</button><button class="btn sm ghost" data-slack1="${d.id}">Copy Slack alert</button><button class="btn sm ghost" data-archive="${d.id}">Archive</button></div>
 <h2 style="font-size:16px">Notes</h2><div class="field"><textarea data-note="${d.id}" placeholder="Call takeaways, who else is looking, why it matters…" style="min-height:60px"></textarea></div><button class="btn sm" data-addnote="${d.id}">Save note</button>
@@ -209,7 +250,7 @@ function detailHTML(d){const f=d.founders||[];return`<div class="row" style="jus
 
 function board(m){
   m.innerHTML=`<div class="topbar"><div><h1>Deal board</h1><p class="sub">Drag cards between stages. Double-click a card to open it.</p></div><button class="btn primary" id="btnAdd">Add deal</button></div>
-  <div class="board">${STAGES.map(([k,label])=>{const cards=sorted(active().filter(d=>d.stage_k===k));return`<div class="col" data-col="${k}"><h3>${label}<span class="mono">${cards.length}</span></h3><div class="cards">${cards.map(d=>`<div class="card" draggable="true" data-drag="${d.id}"><div class="cn">${esc(d.company)}</div><div class="cl">${esc(d.oneLiner||"")}</div><div class="row small"><span class="tag">${esc([d.stage,d.amount].filter(Boolean).join(" ")||d.signalType||"")}</span>${d.origin==="fund-intro"?`<span class="tag intro">${esc(d.referredBy||"intro")}</span>`:""}<span class="muted">${ago(d.touchedAt||d.addedAt)}</span></div></div>`).join("")}</div></div>`;}).join("")}</div>`;
+  <div class="board">${STAGES.map(([k,label])=>{const cards=sorted(active().filter(d=>d.stage_k===k));return`<div class="col" data-col="${k}"><h3>${label}<span class="mono">${cards.length}</span></h3><div class="cards">${cards.map(d=>`<div class="card" draggable="true" data-drag="${d.id}"><div class="cn">${esc(d.company)}</div><div class="cl">${esc(d.oneLiner||"")}</div><div class="tagrow" style="margin-top:0">${originTag(d)}${sectorsOf(d).slice(0,2).map(sectorTag).join("")}</div><div class="row small" style="margin-top:6px"><span class="muted">${esc([d.stage,d.amount].filter(Boolean).join(" ")||d.signalType||"")}</span><span class="muted">· ${ago(d.touchedAt||d.addedAt)}</span></div></div>`).join("")}</div></div>`;}).join("")}</div>`;
   wire(m);
   m.querySelectorAll("[data-drag]").forEach(c=>{c.ondragstart=e=>{e.dataTransfer.setData("text/plain",c.dataset.drag);c.style.opacity=.5;};c.ondragend=()=>c.style.opacity=1;c.ondblclick=()=>{selectedId=c.dataset.drag;view="inbox";render();};});
   m.querySelectorAll("[data-col]").forEach(col=>{col.ondragover=e=>{e.preventDefault();col.classList.add("over");};col.ondragleave=()=>col.classList.remove("over");col.ondrop=e=>{e.preventDefault();col.classList.remove("over");const id=e.dataTransfer.getData("text/plain");if(id&&deals[id]&&deals[id].stage_k!==col.dataset.col)moveStage(id,col.dataset.col);};});
@@ -227,7 +268,7 @@ function outreach(m){
   wire(m);
 }
 function sources(m){
-  const by={};active().forEach(d=>{const k=d.origin==="fund-intro"?(d.referredBy||"Fund intro"):(d.sourceName||"My network / sourcing");by[k]=(by[k]||0)+1;});
+  const by={};active().forEach(d=>{const k=d.origin==="fund-intro"?(d.referredBy||"Fund intro"):d.origin==="radar"?("Radar · "+(d.sourceName||"")):d.origin==="inbound"?"Inbound":(d.sourceName||"My network / sourcing");by[k]=(by[k]||0)+1;});
   m.innerHTML=`<div class="topbar"><div><h1>Sources & import</h1></div><div class="row"><button class="btn" id="btnImport">Import JSON</button><button class="btn primary" id="btnAdd">Add deal</button></div></div>
   <div class="grid2"><div class="panel pad"><h2>Where deals came from</h2><table><tbody>${Object.entries(by).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="mono" style="text-align:right">${v}</td></tr>`).join("")}</tbody></table></div>
   <div class="panel pad"><h2>Adding new dealflow</h2><p class="small" style="margin:0 0 8px">Three ways:</p><ol class="small" style="margin:0;padding-left:18px;line-height:1.7"><li><b>Add deal</b> — the form (fund intros: set origin to “Sent by a fund”).</li><li><b>Import JSON</b> — paste a list of deals. Ask Claude in chat to turn raw notes or a newsletter into this JSON format: <code>[{"company","website","oneLiner","signalType","signalDate","origin","referredBy","sector","geo","stage","amount","investors","founders":[{"name","role","linkedin"}]}]</code>. Existing companies are skipped.</li><li><b>Update the seed</b> in <code>index.html</code> on GitHub — new entries merge into every browser that opens the page.</li></ol>
@@ -273,9 +314,9 @@ function openAdd(tab,existing){
   <div class="grid2"><div class="field"><label>Company</label><input id="fCompany" value="${esc(d.company||"")}"></div><div class="field"><label>Website</label><input id="fWeb" value="${esc(d.website||"")}" placeholder="https://"></div></div>
   <div class="field"><label>One line — what they do</label><input id="fLine" value="${esc(d.oneLiner||"")}"></div>
   <div class="grid2"><div class="field"><label>Signal type</label><select id="fType">${SIGNAL_TYPES.map(t=>`<option ${d.signalType===t?"selected":""}>${t}</option>`).join("")}</select></div><div class="field"><label>Signal date</label><input id="fDate" type="date" value="${new Date(d.signalDate||Date.now()).toISOString().slice(0,10)}"></div></div>
-  <div class="grid2"><div class="field"><label>Origin</label><select id="fOrigin"><option value="sourced" ${(d.origin||"sourced")==="sourced"?"selected":""}>Sourced by me</option><option value="fund-intro" ${d.origin==="fund-intro"?"selected":""}>Sent by a fund</option><option value="inbound" ${d.origin==="inbound"?"selected":""}>Inbound / referral</option></select></div><div class="field"><label>Referred by</label><input id="fRef" value="${esc(d.referredBy||"")}" placeholder="Fund or person"></div></div>
+  <div class="grid2"><div class="field"><label>Origin</label><select id="fOrigin"><option value="sourced" ${(d.origin||"sourced")==="sourced"?"selected":""}>Sourced by me</option><option value="fund-intro" ${d.origin==="fund-intro"?"selected":""}>Sent by a fund</option><option value="inbound" ${d.origin==="inbound"?"selected":""}>Inbound / referral</option><option value="radar" ${d.origin==="radar"?"selected":""}>Radar</option></select></div><div class="field"><label>Referred by</label><input id="fRef" value="${esc(d.referredBy||"")}" placeholder="Fund or person"></div></div>
   <div class="grid2"><div class="field"><label>Source link</label><input id="fSrc" value="${esc(d.sourceUrl||"")}" placeholder="https://"></div><div class="field"><label>Source name</label><input id="fSrcName" value="${esc(d.sourceName||"")}"></div></div>
-  <div class="grid2"><div class="field"><label>Sector</label><input id="fSector" value="${esc(d.sector||"")}"></div><div class="field"><label>Geo</label><input id="fGeo" value="${esc(d.geo||"")}"></div></div>
+  <div class="grid2"><div class="field"><label>Sectors (separate with /)</label><input id="fSector" value="${esc(d.sector||"")}" placeholder="Fintech / Compliance"></div><div class="field"><label>Geo</label><input id="fGeo" value="${esc(d.geo||"")}"></div></div>
   <div class="grid2"><div class="field"><label>Round / stage</label><input id="fStage" value="${esc(d.stage||"")}" placeholder="Seed, Series A, Stealth…"></div><div class="field"><label>Amount</label><input id="fAmt" value="${esc(d.amount||"")}"></div></div>
   <div class="grid2"><div class="field"><label>Investors</label><input id="fInv" value="${esc(d.investors||"")}"></div><div class="field"><label>Tags (comma separated)</label><input id="fTags" value="${esc((d.tags||[]).join(", "))}"></div></div>
   <div class="field"><label>Pipeline stage</label><select id="fK">${STAGES.map(s=>`<option value="${s[0]}" ${(d.stage_k||"new")===s[0]?"selected":""}>${s[1]}</option>`).join("")}</select></div>
@@ -296,7 +337,7 @@ function openAdd(tab,existing){
 
 function draftFor(d,channel,angle,founderName){
   const first=(founderName||"").split(" ")[0]||"there";const me=thesis.scoutName||"[your name]";const fund=thesis.fund?` — I scout early-stage deals for ${thesis.fund}`:" — I scout early-stage deals";
-  const what=d.oneLiner?(/^[A-Z][a-z]/.test(d.oneLiner)?d.oneLiner.charAt(0).toLowerCase()+d.oneLiner.slice(1):d.oneLiner):"what you're building";
+  const what=d.oneLiner?d.oneLiner.charAt(0).toLowerCase()+d.oneLiner.slice(1):"what you're building";
   const hook=d.signalType==="Stealth"?`I understand you're working on something new${d.oneLiner?` around ${what}`:""}.`:d.origin==="fund-intro"?`${d.referredBy||"A fund I work with"} mentioned ${d.company}${d.oneLiner?` and ${what}`:""}.`:d.amount&&/rais/i.test(d.signalType||"")?`I saw ${d.company} is raising a ${d.stage||"round"}${d.amount?` (${d.amount})`:""} for ${what}.`:`I came across ${d.company}${d.oneLiner?` — ${what}`:""}.`;
   const why=angle?angle:(thesis.sectors.length?`${d.sector||"This space"} is squarely where I spend my time (${thesis.sectors.slice(0,3).join(", ")}).`:"");
   const body=`Hi ${first},\n\n${hook} ${why}\n\nI'm ${me}${fund}. Would you have 20 minutes this week or next to walk me through it? Happy to share who else I'd bring it to.\n\n${me}`;
@@ -322,7 +363,7 @@ function openDraft(id){
 function exportCSV(){const cols=["company","oneLiner","signalType","signalDate","stage_k","stage","amount","sector","geo","investors","origin","referredBy","website","sourceUrl","founders","linkedin","score"];const rows=[cols.join(",")].concat(sorted(active()).map(d=>{const v={...d,signalDate:new Date(d.signalDate).toISOString().slice(0,10),founders:(d.founders||[]).map(f=>f.name).join("; "),linkedin:(d.founders||[]).map(f=>f.linkedin).filter(Boolean).join("; "),score:rank(d)};return cols.map(c=>`"${String(v[c]??"").replace(/"/g,'""')}"`).join(",");}));download("scout-desk.csv",rows.join("\n"),"text/csv");}
 
 document.querySelectorAll(".navbtn").forEach(b=>b.onclick=()=>{view=b.dataset.view;render();});
-const added=load();applyTheme();render();
+const added=load();applyTheme();render();loadRadar();
 if(added&&Object.keys(deals).length>added)toast(`${added} new deal${added===1?"":"s"} merged from the seed`);
 </script>
 </body>
