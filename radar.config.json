@@ -1,0 +1,29 @@
+{
+  "keepDays": 30,
+  "maxItems": 300,
+  "sectors": {
+    "AI infrastructure": ["ai infrastructure","inference","gpu","llm","foundation model","model compression","agents","agent","evals","ml ops","mlops","vector"],
+    "Developer tools": ["developer","devtool","open source","open-source","api","sdk","observability","coding agent"],
+    "Fintech": ["fintech","payments","payment","banking","lending","insurtech","compliance","kyc","aml","crypto","stablecoin","treasury"],
+    "Energy & climate": ["energy","climate","battery","solar","grid","electricity","carbon","hydrogen","nuclear"],
+    "Deep tech": ["semiconductor","chip","quantum","photonics","robotics","robot","space","satellite","materials","compute"],
+    "Health & bio": ["health","biotech","medtech","therapeutics","clinical","drug","diagnostic","longevity"],
+    "Vertical SaaS": ["saas","logistics","freight","construction","legal","proptech","hospitality","agritech","manufacturing"],
+    "Defense & security": ["defense","defence","cybersecurity","security","drone","dual-use"],
+    "Consumer": ["consumer","marketplace","app","gaming","creator","fitness","travel","food"]
+  },
+  "geoBoost": ["france","paris","french","europe","european","uk","london","berlin","germany","netherlands","amsterdam","spain","italy","sweden","stockholm","switzerland","belgium"],
+  "stageBoost": ["pre-seed","preseed","seed","series a","angel","stealth","emerges from stealth","launch","lève","levée","amorçage"],
+  "penalize": ["series c","series d","series e","ipo","acquires","acquired","acquisition","layoffs","$100m","$200m","$300m","$500m","€100m"],
+  "sources": [
+    {"name":"FinSMEs","url":"https://www.finsmes.com/feed","type":"rss"},
+    {"name":"TechCrunch Startups","url":"https://techcrunch.com/category/startups/feed/","type":"rss"},
+    {"name":"EU-Startups","url":"https://www.eu-startups.com/feed/","type":"rss"},
+    {"name":"Tech.eu","url":"https://tech.eu/feed/","type":"rss"},
+    {"name":"Maddyness","url":"https://www.maddyness.com/feed/","type":"rss"},
+    {"name":"Sifted","url":"https://sifted.eu/feed","type":"rss"},
+    {"name":"Product Hunt","url":"https://www.producthunt.com/feed","type":"rss"},
+    {"name":"YC Launches","url":"https://www.ycombinator.com/launches/rss","type":"rss"},
+    {"name":"Show HN","url":"https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&hitsPerPage=60","type":"hn"}
+  ]
+}
