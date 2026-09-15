@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T15:47:04.173Z",
+ "generatedAt": "2026-09-15T16:04:15.645Z",
  "sources": [
   "FinSMEs",
   "TechCrunch Startups",
@@ -12,6 +12,83 @@
   "Show HN"
  ],
  "items": [
+  {
+   "title": "Exein raises $270m to fight AI hackers, doubles valuation",
+   "link": "https://sifted.eu/articles/exein-funding-round-ai-hack-cybersecurity/",
+   "date": "2026-09-15T16:58:28.000Z",
+   "summary": "",
+   "source": "Sifted",
+   "company": "Exein",
+   "sectors": [],
+   "amount": "$270m",
+   "stage": "",
+   "signalType": "Funding announcement",
+   "score": 55,
+   "firstSeen": "2026-09-15T16:04:15.644Z"
+  },
+  {
+   "title": "Show HN: An open source safety layer for AI agent actions",
+   "link": "https://github.com/CTRLRun/ctrlrun",
+   "date": "2026-09-15T16:03:31Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714619",
+   "company": "An open source safety layer for AI agent actions",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-15T16:04:15.645Z"
+  },
+  {
+   "title": "Show HN: Claude Meter – a macOS menu-bar meter for Claude's usage limits",
+   "link": "https://github.com/sanchitkd/claude-meter",
+   "date": "2026-09-15T15:57:51Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714524",
+   "company": "Claude Meter",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-15T16:04:15.645Z"
+  },
+  {
+   "title": "Show HN: Go Bindings for SCIP Optimizer",
+   "link": "https://github.com/egoisutolabs/scipgo",
+   "date": "2026-09-15T15:56:14Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714495",
+   "company": "Go Bindings for SCIP Optimizer",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-15T16:04:15.645Z"
+  },
+  {
+   "title": "Show HN: Voice AI that runs on CPUs",
+   "link": "https://lokutor.com/",
+   "date": "2026-09-15T15:49:45Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714400",
+   "company": "Voice AI that runs on CPUs",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-15T16:04:15.645Z"
+  },
   {
    "title": "Show HN: Eulix - Code navigation for large codebases",
    "link": "https://news.ycombinator.com/item?id=49714268",
@@ -2203,6 +2280,22 @@
    "signalType": "Funding announcement",
    "score": 75,
    "firstSeen": "2026-09-15T15:47:04.165Z"
+  },
+  {
+   "title": "Epilude Notetaker",
+   "link": "https://www.producthunt.com/products/epilude",
+   "date": "2026-09-10T17:48:52.000Z",
+   "summary": "<p>\n            100% private meeting notes\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/epilude?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a>\n            |\n            <a href=\"https://www.producthunt.com/r/p/1246919?app_id=339\">Link</a>\n          </p>",
+   "source": "Product Hunt",
+   "company": "Epilude Notetaker",
+   "sectors": [
+    "Consumer"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-15T16:04:15.645Z"
   },
   {
    "title": "Kilo Code for iOS and Android",
