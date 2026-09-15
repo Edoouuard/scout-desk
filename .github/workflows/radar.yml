@@ -1,5 +1,8 @@
 name: Generate Radar
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Run daily at 8 AM UTC
@@ -10,10 +13,14 @@ on:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          # ensure the runner can push commits back to the repo
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -24,8 +31,15 @@ jobs:
         run: node radar.js
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add radar.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update radar.json" && git push)
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update radar.json"
+            git push
+          fi
