@@ -2,7 +2,7 @@
 // Reads public feeds, extracts startup signals, scores them, writes radar.json.
 const fs = require("fs");
 const path = require("path");
-const root = path.join(__dirname, "..");
+const root = __dirname;
 const cfg = JSON.parse(fs.readFileSync(path.join(root, "radar.config.json"), "utf8"));
 const outPath = path.join(root, "radar.json");
 let previous = [];
