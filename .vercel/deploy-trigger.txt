@@ -1,0 +1,6 @@
+Redeploy trigger file
+
+Triggered redeploy from GitHub to force Vercel to redeploy the site after CI updates.
+
+Timestamp: 2026-09-15T15:59:00Z
+Triggered by: GitHub Copilot automation for Edoouuard/scout-desk
