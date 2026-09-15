@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T16:04:15.645Z",
+ "generatedAt": "2026-09-15T16:59:13.647Z",
  "sources": [
   "FinSMEs",
   "TechCrunch Startups",
@@ -25,6 +25,158 @@
    "signalType": "Funding announcement",
    "score": 55,
    "firstSeen": "2026-09-15T16:04:15.644Z"
+  },
+  {
+   "title": "Show HN: Omni – Open-source workplace agent, built on Postgres",
+   "link": "https://news.ycombinator.com/item?id=49715402",
+   "date": "2026-09-15T16:58:14Z",
+   "summary": "Hi HN!<p>Over the past year, I&#x27;ve been building Omni (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;getomnico&#x2F;omni\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;getomnico&#x2F;omni</a>) - an open-source, self-hosted agent that connects to your workplace apps (drive, email, wiki, CRMs, ticketing systems, etc.), and gives your team an AI agent that can operate across these apps.<p>I posted about Omni on HN about 6 months ago, and it generated some interesting discussions: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47215427\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49715402",
+   "company": "Omni",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools",
+    "Consumer"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-15T16:59:13.646Z"
+  },
+  {
+   "title": "Show HN: TabPFN-3.5, a Tabular Foundation Model for messy real-world tables",
+   "link": "https://priorlabs.ai/technical-reports/tabpfn-3-5",
+   "date": "2026-09-15T16:56:55Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49715384",
+   "company": "TabPFN-3.5, a Tabular Foundation Model for messy r",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: Yapsnap – transcribe anything with audio, no GPU, no language flag",
+   "link": "https://github.com/kouhxp/yapsnap/releases/tag/v0.2.0",
+   "date": "2026-09-15T16:50:37Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49715297",
+   "company": "Yapsnap",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: Constraint Programming in Your AI Agent",
+   "link": "https://github.com/carban/minizinc-mcp",
+   "date": "2026-09-15T16:42:24Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49715171",
+   "company": "Constraint Programming in Your AI Agent",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: I ported COLMAP (photogrammetry) to the browser in WASM and WebGPU",
+   "link": "https://offlinetools.io/colmap-landing/",
+   "date": "2026-09-15T16:40:47Z",
+   "summary": "Hi,<p>I’m launching the COLMAP browser workspace today!<p>offlinetools.io&#x2F;colmap<p>It’s a free and fully local browser implementation of the popular open-source photogrammetry software COLMAP.<p>No download, no sign-up, no installation, no setup, no cloud processing — everything happens and stays on the user’s machine.<p>More info:\nofflinetools.io&#x2F;colmap-landing<p>Why is it relevant?\nBringing COLMAP to the browser is technically challenging because of the browser’s additional constraints.<p>This is the first implementation that reaches native-class performance and, in some cases, eve",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49715142",
+   "company": "I ported COLMAP (photogrammetry) to the browser in",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools",
+    "Deep tech",
+    "Consumer"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 80,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: QLIC – JXL e3 speeds with e9 file density",
+   "link": "https://github.com/OzzyMitchell/QLIC",
+   "date": "2026-09-15T16:36:30Z",
+   "summary": "On my 3,167 image corpus, which contains images from Kodak, Waterloo, qoi, Enrico, and others, QLIC matched JXL effort 9 file sizes while being 9x faster at encoding and decoding 30% faster.<p>There is also a web demo you can try at qlic.pages.dev and the benchmarks at qlic.pages.dev&#x2F;benchmarks&#x2F;<p>Independent benchmarking is also needed.",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49715087",
+   "company": "QLIC",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: ETLFunnel – self-hosted, code-first data pipelines (v1.1.1)",
+   "link": "https://etlfunnel.com",
+   "date": "2026-09-15T16:28:32Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714976",
+   "company": "ETLFunnel",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: Open-Source Lightweight Prompt Injection Safety",
+   "link": "https://github.com/StackOneHQ/defender/",
+   "date": "2026-09-15T16:20:41Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714872",
+   "company": "Open-Source Lightweight Prompt Injection Safety",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
+  },
+  {
+   "title": "Show HN: Extract original images from a PDF in the browser",
+   "link": "https://imissfiles.com/extract-pdf-images/",
+   "date": "2026-09-15T16:05:28Z",
+   "summary": "",
+   "source": "Show HN",
+   "discussion": "https://news.ycombinator.com/item?id=49714636",
+   "company": "Extract original images from a PDF in the browser",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-15T16:59:13.647Z"
   },
   {
    "title": "Show HN: An open source safety layer for AI agent actions",
