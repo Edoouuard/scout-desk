@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-16T09:02:12.412Z",
+ "generatedAt": "2026-09-16T12:58:55.863Z",
  "sources": [
   "FinSMEs",
   "TechCrunch Startups",
@@ -12,6 +12,410 @@
   "Show HN"
  ],
  "items": [
+  {
+   "title": "Show HN: Calmscroll – A Library of Paragraphs",
+   "link": "https://calmscroll.com/",
+   "date": "2026-09-16T12:49:48Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Calmscroll",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Microsoft Comic Chat (1996) for ChatGPT",
+   "link": "https://github.com/theletterf/comic-chat-ai/tree/main",
+   "date": "2026-09-16T12:26:00Z",
+   "summary": "I love good old Microsoft Comic Chat (1996-1998). Since the source is now public and archived, I made a fork and added support for ChatGPT, so that you can have a comic chat with GPT itself. The LLM is instructed to emote using the UI convention.",
+   "source": "Show HN",
+   "company": "Microsoft Comic Chat (1996) for ChatGPT",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Remind Cards – an offline-first flashcard app with AI generation",
+   "link": "https://news.ycombinator.com/item?id=49725821",
+   "date": "2026-09-16T12:21:12Z",
+   "summary": "Hi HN, I’m a software engineer, and for the past several months I’ve been building Remind Cards, a flashcard app I originally made because I wanted a better way to study Estonian vocabulary. https://remindcardsai.com/app What started as a small prototype gradually became a much bigger side project. The app now supports: * AI-generated flashcards from any topic * Uploading photos of handwritten notes and turning them into flashcards * Automatically generating example sentences for your cards * Pronunciation and text-to-speech, so you can hear the words and example sentences * Custom decks and s",
+   "source": "Show HN",
+   "company": "Remind Cards",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Aveela – Screenshots to client docs, hosted end-to-end in the EU",
+   "link": "https://aveela.com/en",
+   "date": "2026-09-16T12:10:34Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Aveela",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Zhenzhu – Look up Chinese while reading on macOS",
+   "link": "https://zhenzhu.app/",
+   "date": "2026-09-16T12:05:27Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Zhenzhu",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: TurboBench, the Compression Lie Detector, 100 Codecs, Daily Update",
+   "link": "https://github.com/powturbo/TurboBench/blob/master/benchmark.md",
+   "date": "2026-09-16T11:56:01Z",
+   "summary": "TurboBench: The Ultimate Data Compression Benchmark 100+ Codecs. The Powerhouse in a Single Executable — The Compression Lie Detector Tired of misleading benchmarks with I/O overhead, cache effects, and CPU throttling? TurboBench delivers high-precision, zero-overhead results you can actually trust. Why TurboBench Stands Out The only benchmark that includes LzTurbo alongside 100+ popular, latest, and fastest compressors (LZ77, Rolz, BWT, Context Mixing, Entropy Coders, and more). - 100% in-memory testing — no disk I/O to skew your results. Supports multiple files, recursive directories, and sm",
+   "source": "Show HN",
+   "company": "TurboBench, the Compression Lie Detector, 100 Codecs, Daily ",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Vortole, word games for language learning at your proficiency level",
+   "link": "https://vortole.com/",
+   "date": "2026-09-16T11:53:25Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Vortole, word games for language learning at your proficienc",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Freeform – One click shareable AI generated apps",
+   "link": "https://sharefreeform.com",
+   "date": "2026-09-16T11:43:17Z",
+   "summary": "TLDR: Curious if YC startup requests are a valid take, so I built freeform in a weekend. Storytime: I’ve been working on a startup for a while (another context layer startup) and one night while I had One Piece playing in the background and I was going through YCs request for startups list. I was watching the videos and reading the transcripts when two of them particularly stood out to me: cloud for small apps and shareable apps. Specifically the quote “AI hasn't had its multiplayer moment yet”. I had an idea floating in my head for a collaborative app which I thought would be nice to have and",
+   "source": "Show HN",
+   "company": "Freeform",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Berlin-based Integral raises €18 million to deliver AI-run accounting, tax and payroll services to SMEs",
+   "link": "https://www.eu-startups.com/2026/09/berlin-based-integral-raises-e18-million-to-deliver-ai-run-accounting-tax-and-payroll-services-to-smes/",
+   "date": "2026-09-16T11:10:44.000Z",
+   "summary": "Integral, a Berlin-based AI-powered services company innovating in accounting, taxation, and payroll for SMEs, today announced its €18 million Series A funding round. The company has raised more than €30 million since its founding less than two years ago. The round was co-led by Mosaic Ventures and Reid Hoffman, with participation from existing investors Cherry […] The post Berlin-based Integral raises €18 million to deliver AI-run accounting, tax and payroll services to SMEs appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "Integral",
+   "sectors": [],
+   "amount": "€18 million",
+   "stage": "Series A",
+   "signalType": "Funding announcement",
+   "score": 80,
+   "firstSeen": "2026-09-16T12:58:55.860Z"
+  },
+  {
+   "title": "Show HN: Omastorm – Live NEXRAD weather radar for Omarchy",
+   "link": "https://github.com/wesleygrimes/omastorm",
+   "date": "2026-09-16T11:01:01Z",
+   "summary": "I’m a software developer and weather nerd. I wanted weather radar that felt like part of my desktop, so I built Omastorm. It lives in the Omarchy bar. Open it for a quick look at your nearest radar, or expand it into a full window to explore and play back recent scans. It uses NOAA’s NEXRAD Level II data, supports keyboard navigation, and follows your desktop theme. It’s open source and still in beta. Currently it requires Omarchy 4 and supports the NEXRAD network; international radar coverage isn’t available yet. I’m particularly interested in hearing from people who have worked with radar da",
+   "source": "Show HN",
+   "company": "Omastorm",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: IndexLaunch – free indexability checker and IndexNow submission queue",
+   "link": "https://www.indexlaunch.site/",
+   "date": "2026-09-16T10:55:24Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "IndexLaunch",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 60,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Gescom MiniDisc Runner – 88 tracks, 88! possible orders",
+   "link": "https://github.com/EI3LH/Gescom-MiniDisc-Runner",
+   "date": "2026-09-16T10:52:35Z",
+   "summary": "NOTE: For a full backstory on this project, please see my blog post here which explains the absurd mathematics behind this unique music album. I hope you enjoy it! Blog Post: https://ei3lh.eu/2026/09/13/gescom-minidisc-and-mind-bogglin... Hello! I made a small Python program to solve a completely unnecessary problem: listening to Gescom's 1998 'MiniDisc' album in every possible order. The album has 88 pieces, which gives us: 88! = 1.8548264225739844 × 10^134 possible sequences. Obviously, making a playlist containing all of them would incur a slight storage problem! So instead, 'Gescom Runner'",
+   "source": "Show HN",
+   "company": "Gescom MiniDisc Runner",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Zopa moves into AI voice banking services",
+   "link": "https://tech.eu/2026/09/16/zopa-moves-into-voice-ai-banking-services/",
+   "date": "2026-09-16T10:51:00.000Z",
+   "summary": "Zopacustomers can now send money to friends and settle invoices through AI voicetechnology, as the UK digital bank moves into conversational banking. Customersof the savings and current account bank, ...",
+   "source": "Tech.eu",
+   "company": "Zopa moves into AI voice banking services",
+   "sectors": [
+    "Fintech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Other",
+   "score": 35,
+   "firstSeen": "2026-09-16T12:58:55.861Z"
+  },
+  {
+   "title": "Show HN: Tray indicator for WSL2: on/off, CPU and memory, one-click shutdown",
+   "link": "https://github.com/ideaconnect/wsl-tray",
+   "date": "2026-09-16T10:48:15Z",
+   "summary": "When using my PC for private stuff like gaming or video editing I wanted an direct way (without calling wsl --shutdown) of turning WSL2 off. Created (with a help of Claude, it is 2026...) a small tray tool which barely uses resources and provides also resources usage info. Grey means the VM is off. Green, orange or red means it is running, coloured by the higher of its CPU and memory share of the machine. Hover for the numbers, menu entry to shut it down. Two things that were not obvious: * Presence is the vmmemWSL process existing. WSL reports on distributions, not on the VM. * CPU and memory",
+   "source": "Show HN",
+   "company": "Tray indicator for WSL2",
+   "sectors": [
+    "Consumer"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
+   "title": "Show HN: Modern RSS reader with social capabilities based on AT Proto",
+   "link": "https://sunred.app/",
+   "date": "2026-09-16T10:42:39Z",
+   "summary": "Hey HN! The web is a bit broken and looking at social medias like X makes me a bit depressed. I feel like the original content that we had before on a multitude of website has been replaced by ton of click-bait content that just want impressions and reactions. I would like us to go back to simpler times, where everyone had their publishing space (their website, or an hosted solution) and everyone could subscribe to it in their own software and do what they want with their feed. I still think that social is important, like sharing, because afterall it's what made social networks interesting in ",
+   "source": "Show HN",
+   "company": "Modern RSS reader with social capabilities based on AT Proto",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "“Vulnerability tsunami” prompts France’s Hackuity to land €16 million for automated cyber remediation",
+   "link": "https://www.eu-startups.com/2026/09/vulnerability-tsunami-prompts-frances-hackuity-to-land-e16-million-for-automated-cyber-remediation/",
+   "date": "2026-09-16T10:40:13.000Z",
+   "summary": "Hackuity, a Lyon-based AI-powered Vulnerability Operations Center (VOC), today announced a €16 million ($19 million) funding round to accelerate product innovation, AI capabilities, and international expansion across Europe and Asia. The round was led by Forgepoint Capital International, with participation from existing investors Bright Pixel, Bpifrance, and Seventure Partners – bringing total funding to €32 […] The post “Vulnerability tsunami” prompts France’s Hackuity to land €16 million for automated cyber remediation appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "“Vulnerability tsunami” prompts France’s Hackuity to land €1",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "€16 million",
+   "stage": "",
+   "signalType": "Funding announcement",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.860Z"
+  },
+  {
+   "title": "Show HN: I built IndieRoadmaps, a simple roadmap builder for indie hackers",
+   "link": "https://indieroadmaps.com",
+   "date": "2026-09-16T10:23:24Z",
+   "summary": "I built a place where you can create your public roadmap and let your community vote on its features. When you ship something, everyone who voted gets an email notification automatically. It also works before you've launched anything, good for validating ideas without writing a line of code. Free to use, roadmap is live in 1 minute.",
+   "source": "Show HN",
+   "company": "I built IndieRoadmaps, a simple roadmap builder for indie ha",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 60,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "Show HN: DER DIE DAS – learn German noun gender with spaced repetition and games",
+   "link": "https://painfree-german.com/",
+   "date": "2026-09-16T10:08:52Z",
+   "summary": "I built this app for my language buddy who is learning German (while he teaches me Chinese). He struggled so much with German articles/determiners. So I made this, it also teaches article changes and noun declensions. There is spaced repetition, audio loops, multi-player games, some cultural lessons and more. It would be nice to get some feedback from German learners!",
+   "source": "Show HN",
+   "company": "DER DIE DAS",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "Show HN: StandProof – iOS app that uses the barometer to verify you stood up",
+   "link": "https://apps.apple.com/us/app/standing-desk-by-standproof/id6801085208",
+   "date": "2026-09-16T10:07:39Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "StandProof",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "Show HN: Sightspool – Get a call when a user wants to talk",
+   "link": "https://www.sightspool.com",
+   "date": "2026-09-16T10:01:47Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Sightspool",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "Show HN: I built a digital wrap tool for Tesla owners",
+   "link": "https://teslawrap.studio",
+   "date": "2026-09-16T09:58:41Z",
+   "summary": "A while ago, I showed some friends a Tesla digital wrap I'd made in Photoshop. These wraps change how the car model looks on the Tesla screen and in the app. They asked me how I'd made it, so I shared a tutorial with them. But they weren't familiar with Photoshop and eventually gave up. I also saw other Tesla owners online running into the same problem. So I built Tesla Wrap Studio using the official templates from Tesla's GitHub repository. It has a gallery of ready-made wraps you can download for free, plus an online editor for creating your own designs. You can work with your own images and",
+   "source": "Show HN",
+   "company": "I built a digital wrap tool for Tesla owners",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "Boxd raises $2M to build cloud infrastructure for AI coding agents",
+   "link": "https://tech.eu/2026/09/16/boxd-raises-2m-to-build-cloud-infrastructure-for-ai-coding-agents/",
+   "date": "2026-09-16T09:49:23.000Z",
+   "summary": "Dutchstartup Boxd has raised $2 million in a pre-seed funding round to develop itscloud computing infrastructure for developers and AI coding agents. The roundwas led by BlueYard Capital, with partici...",
+   "source": "Tech.eu",
+   "company": "Boxd",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "$2M",
+   "stage": "Pre-seed",
+   "signalType": "Funding announcement",
+   "score": 90,
+   "firstSeen": "2026-09-16T12:58:55.861Z"
+  },
+  {
+   "title": "Show HN: Kival – A self-hosted knowledge system for organizations",
+   "link": "https://github.com/selemis-com/kival",
+   "date": "2026-09-16T09:48:32Z",
+   "summary": "Hi HN, I’ve been building Kival, an open-source, self-hosted knowledge system for organizations. The idea is a collaborative knowledge space for teams and agents, where each contribution to the shared knowledge can meaningfully improve the output of their next tasks. It’s written in Rust, backed by PostgreSQL, and ships with a web app, CLI, and SDKs. Still early, so I’d really appreciate any feedback :)",
+   "source": "Show HN",
+   "company": "Kival",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools",
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
+  {
+   "title": "Monzo launches metal credit card that auto-invests cashback",
+   "link": "https://tech.eu/2026/09/16/monzo-launches-metal-credit-card-that-auto-invests-cashback/",
+   "date": "2026-09-16T09:27:03.000Z",
+   "summary": "Monzo,the UK digital bank, has launched a £15-a-month iridescent metal credit card,which it says is the UK’s first credit card that auto-invests cashback ascustomers spend.CalledMonzo Aura, Monzo is p...",
+   "source": "Tech.eu",
+   "company": "Monzo",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 70,
+   "firstSeen": "2026-09-16T12:58:55.861Z"
+  },
+  {
+   "title": "Stirling-based iGii secures €26.5 million to commercialise its proprietary carbon nanomaterial",
+   "link": "https://www.eu-startups.com/2026/09/stirling-based-igii-secures-e26-5-million-to-commercialise-its-proprietary-carbon-nanomaterial/",
+   "date": "2026-09-16T09:17:31.000Z",
+   "summary": "iGii, a Stirling-based DeepTech advanced materials company behind the proprietary carbon nanomaterial Gii, today announced €26.49 million (£22.7 million) in new funding to accelerate the commercialisation and industrial adoption of its technology. The round comprises a €13.65 million (£11.7 million) Series B investment led by the Scottish National Investment Bank, with additional backing from PXN […] The post Stirling-based iGii secures €26.5 million to commercialise its proprietary carbon nanomaterial appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "iGii",
+   "sectors": [
+    "Energy & climate",
+    "Deep tech"
+   ],
+   "amount": "€26.5 million",
+   "stage": "Series B",
+   "signalType": "Funding announcement",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.860Z"
+  },
+  {
+   "title": "ETFBOOK raises $13M to expand ETF data and analytics globally",
+   "link": "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/",
+   "date": "2026-09-16T09:12:13.000Z",
+   "summary": "ETFBOOK (SquaredData AG) has raised $13million in a funding round to expand its ETF data and analytics platform intothe Americas and Asia-Pacific. Expedition Growth Capital led the roundwith participa...",
+   "source": "Tech.eu",
+   "company": "ETFBOOK",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "$13M",
+   "stage": "",
+   "signalType": "Funding announcement",
+   "score": 65,
+   "firstSeen": "2026-09-16T12:58:55.861Z"
+  },
+  {
+   "title": "Show HN: Showcase all the projects u have created in a single profile card",
+   "link": "https://founderhub.dev",
+   "date": "2026-09-16T09:05:18Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Showcase all the projects u have created in a single profile",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.863Z"
+  },
   {
    "title": "Hackuity lève 19 millions de dollars pour contrer les attaques IA",
    "link": "https://www.maddyness.com/2026/09/16/hackuity-leve-19-millions-de-dollars-pour-contrer-les-attaques-ia/",
@@ -1981,6 +2385,20 @@
    "firstSeen": "2026-09-16T09:02:12.410Z"
   },
   {
+   "title": "MemoryPet 2.0",
+   "link": "https://www.producthunt.com/products/memorypet",
+   "date": "2026-09-11T17:54:42.000Z",
+   "summary": "<p> Turn your browsers toolbar into an animated usage monitor </p> <p> <a href=\"https://www.producthunt.com/products/memorypet?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1247860?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "MemoryPet 2.0",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
+  },
+  {
    "title": "Weave Router 2.0",
    "link": "https://www.producthunt.com/products/weave",
    "date": "2026-09-11T15:53:52.000Z",
@@ -2071,6 +2489,20 @@
    "signalType": "Product launch",
    "score": 65,
    "firstSeen": "2026-09-16T09:02:12.409Z"
+  },
+  {
+   "title": "Afterglow",
+   "link": "https://www.producthunt.com/products/afterglow-4",
+   "date": "2026-09-10T00:35:06.000Z",
+   "summary": "<p> Run classic After Dark screen savers on modern macOS </p> <p> <a href=\"https://www.producthunt.com/products/afterglow-4?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1246217?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Afterglow",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-16T12:58:55.862Z"
   },
   {
    "title": "Fifi",
