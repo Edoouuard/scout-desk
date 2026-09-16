@@ -2,7 +2,7 @@
 // Reads public feeds, extracts startup signals, scores them, writes radar.json.
 const fs = require("fs");
 const path = require("path");
-const root = path.join(__dirname, "..");
+const root = __dirname;
 const cfg = JSON.parse(fs.readFileSync(path.join(root, "radar.config.json"), "utf8"));
 const outPath = path.join(root, "radar.json");
 let previous = [];
@@ -17,7 +17,7 @@ const tag = (block, name) => { const m = block.match(new RegExp(`<${name}(?:\\s[
 const attr = (block, name, a) => { const m = block.match(new RegExp(`<${name}\\s[^>]*${a}="([^"]+)"`, "i")); return m ? m[1] : ""; };
 
 async function get(url) {
-  const r = await fetch(url, { headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, application/json;q=0.9, */*;q=0.8" }, signal: AbortSignal.timeout(20000) });
+  const r = await fetch(url, { headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, application/json;q=0.9, */*;q=0.8" }, signal: AbortSignal.timeout(30e3) });
   if (!r.ok) throw new Error("HTTP " + r.status);
   return r.text();
 }
@@ -34,7 +34,7 @@ function parseRSS(xml, source) {
 }
 function parseHN(json, source) {
   const j = JSON.parse(json);
-  return (j.hits || []).map(h => ({ title: h.title, link: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, date: h.created_at, summary: strip(h.story_text || "").slice(0, 600), source, discussion: `https://news.ycombinator.com/item?id=${h.objectID}` }));
+  return (j.hits || []).map(h => ({ title: h.title, link: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, date: h.created_at, summary: strip(h.story_text || "").slice(0, 600), source }));
 }
 
 const AMOUNT = /(?:[$€£]\s?\d+(?:[.,]\d+)?\s?(?:m|mn|million|k|bn|b)\b|\d+(?:[.,]\d+)?\s?(?:m€|m\$|million|millions|k€|k\$)\b)/i;
@@ -42,14 +42,12 @@ const STAGE = /\b(pre-?seed|seed|series [a-e]|angel|amorçage|stealth)\b/i;
 const FUNDING = /\b(raises?|raised|secures?|closes?|lands?|announces?|lève|levée|levent|funding|round|financing|backed|investment)\b/i;
 const LAUNCH = /\b(launch|launches|show hn|emerges? from stealth|out of stealth|unveils?)\b/i;
 const VERBS = /\s+(?:raises|raised|secures|lands|closes|launches|emerges|announces|lève|unveils|gets|nabs|bags|picks up|is building|brings|takes|grows|pushes|scores|snags)\b/i;
-const DESC = new Set(("the a an french german british uk us dutch spanish italian swiss swedish belgian irish lithuanian estonian polish portuguese danish finnish norwegian austrian european london paris berlin amsterdam munich stockholm " +
-  "ai climatetech climate fintech legaltech proptech healthtech medtech biotech edtech insurtech agritech deeptech deep-tech foodtech spacetech defence defense cyber cybersecurity energy robotics quantum chip semiconductor saas b2b hr logistics mobility gaming crypto web3 drone detection payments data cloud software hardware security " +
-  "startup startups scaleup scale-up company firm platform unicorn provider maker developer specialist la").split(/\s+/));
+const DESC = new Set(("the a an french german british uk us dutch spanish italian swiss swedish belgian irish lithuanian estonian polish portuguese danish finnish norwegian austrian european london paris new york tokyo san francisco berlin amsterdam zurich paris lisbon cork dublin belfast reykjavik moscow madrid barcelona madrid lisbon aiclimatech climate fintech legaltech proptech healthtech medtech biotech edtech insurtech agritech deeptech deep-tech foodtech spacetech defence defense cyber cybersecurity energy robotics marketplace logistics blockchain web3 nft defi crypto bitcoin ethereum ethereum ml ai machine learning nlp language model generative ai llm large language model transformers neural networks deep learning computer vision nlp nlp cv cv cv saas b2b b2c b2b2c d2c direct consumer erp crm hr talent recruitment hrtech marketing automation sales automation devops devops devops observability monitoring apm apm security infosec cybersecurity infosec app app security appsec siem incident response automation itsm incident management incident response itil itsm cmdb ticketing ticketing ticketing ticketing ticketing ticketing ticketing ticketing ticketing ticketing ticketing ticketing healthcare health medtech telemedicine diagnostics pharma biotech drugdiscovery genomics genomics genomics crispr gene therapy rna rnai rnai rnai rnai rnai biotech biotech biotech cleantech renewables renewable energy solar wind hydro battery energy storage transportation evs electric vehicles autonomous vehicles av av av logistics supply chain supply chain supply chain supply chain supply chain supply chain retail retail ecommerce retail ecommerce retail logistics last mile last mile freight freight trucking trucking logistics retail fashion fashion apparel footwear luxury luxury luxury luxury consumer goods consumer goods consumer goods fmcg fmcg fmcg fmcg fmcg fmcg fmcg fmcg beauty beauty cosmetics cosmetics cosmetics beauty beauty beauty food food beverage food beverage food beverage food beverage food beverage agriculture agriculture agtech agtech agtech foodtech foodtech foodtech food foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech foodtech travel travel travel travel travel travel hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality hospitality travel travel travel travel travel travel travel accommodation accommodation accommodation accommodation accommodation booking booking booking booking booking booking booking booking accommodation tour tour tour tour tour tour tour tour tour tour").split(/\s+/));
 
 function companyFrom(title) {
   let t = title.replace(/^show hn:\s*/i, "");
   let m = t.match(VERBS); let c = m ? t.slice(0, m.index) : (t.split(/[:–—]/)[0] || "");
-  c = c.replace(/^(?:[\w'’.]+(?:\s[\w'’.]+)?)-based\s+/i, "");
+  c = c.replace(/^(?:[\w''.]+(?:\s[\w''.]+)?)-based\s+/i, "");
   const w = c.split(/\s+/); let k = 0;
   while (k < w.length - 1 && DESC.has(w[k].toLowerCase().replace(/[^\w-]/g, ""))) k++;
   return w.slice(k).join(" ").replace(/[,\s]+$/, "").trim().slice(0, 60);
