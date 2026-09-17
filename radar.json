@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17T12:55:12.481Z",
+ "generatedAt": "2026-09-17T13:29:06.576Z",
  "sources": [
   "FinSMEs",
   "TechCrunch Startups",
@@ -12,6 +12,146 @@
   "Show HN"
  ],
  "items": [
+  {
+   "title": "Show HN: Fast and minimal image/video viewer for Linux. Carosello",
+   "link": "https://www.youtube.com/watch?v=383WgwVmepI",
+   "date": "2026-09-17T13:27:42Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Fast and minimal image/video viewer for Linux. Carosello",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Show HN: Intent Based Infrastructure on Top of Terraform",
+   "link": "https://octo.quadnix.com/",
+   "date": "2026-09-17T13:23:06Z",
+   "summary": "Hey everyone! I built a platform that works on top of Terraform to expose high level constructs you want to create in your infrastructure (intent) rather than actually dealing with cloud resources (typical terraform modules). I am looking for other enthusiasts to work on this project, and gather feedback. The problem I am trying to solve is complexity. Typically you make infra by either asking AI, or dealing with very low level resources that other people on your team might not fully understand. If you expose a higher level construct, people will only typically deal with a well understood grap",
+   "source": "Show HN",
+   "company": "Intent Based Infrastructure on Top of Terraform",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Show HN: DrillFlow – a diagram editor where every node opens into a sub-diagram",
+   "link": "https://drillflow.de/de/",
+   "date": "2026-09-17T13:22:36Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "DrillFlow",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Show HN: Databloom – Turn recordings into structured notes and quizzes",
+   "link": "https://databloom.app",
+   "date": "2026-09-17T13:20:34Z",
+   "summary": "Hey, I’m the creator of Databloom. It turns recordings into structured notes and personalized quizzes, making it easier to capture information and test what you’ve learned. I’d love your feedback!",
+   "source": "Show HN",
+   "company": "Databloom",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Show HN: A GraphRAG knowledge base of the Commodore 64 for AI coding agents",
+   "link": "https://github.com/bdgscotland/c64-kb",
+   "date": "2026-09-17T13:15:23Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "GraphRAG knowledge base of the Commodore 64 for AI coding ag",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Show HN: Share your AI Setup, Learn from others",
+   "link": "https://mysetup.ai/",
+   "date": "2026-09-17T13:01:44Z",
+   "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the hope we could have a dedicated space to share and be open about our setups.",
+   "source": "Show HN",
+   "company": "Share your AI Setup, Learn from others",
+   "sectors": [
+    "AI infrastructure",
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Magentic raises $18M to automate industrial operations with AI agents",
+   "link": "https://tech.eu/2026/09/17/magentic-raises-18m-to-automate-industrial-operations-with-ai-agents/",
+   "date": "2026-09-17T13:00:00.000Z",
+   "summary": "Magentic, a provider of AI-powered digital workers for industrialcompanies, has raised $18 million in Series A funding, a year after its launch.The round was led by Felicis, with participation from ex...",
+   "source": "Tech.eu",
+   "company": "Magentic",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "$18M",
+   "stage": "Series A",
+   "signalType": "Funding announcement",
+   "score": 80,
+   "firstSeen": "2026-09-17T13:29:06.574Z"
+  },
+  {
+   "title": "Show HN: What sandboxing an AI coding agent in a VM costs",
+   "link": "https://www.veloworkspaces.com/blog/vm-sandboxing-cost/",
+   "date": "2026-09-17T12:57:34Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "What sandboxing an AI coding agent in a VM costs",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
+  {
+   "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
+   "link": "https://flat.social",
+   "date": "2026-09-17T12:57:09Z",
+   "summary": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I recently added surfing!). Live demo to try it out: https://app.flat.social/f/demo-flat Here's a quick demo video: https://www.youtube.com/watch?v=GeinBNqL23s It's a solo, bootstrapped project built with Three.js, LiveKit and Rapier for physics. I built the first version during the pandemic and posted it here back then: https://news.ycombinator.com/item?id=31833415 I had a couple",
+   "source": "Show HN",
+   "company": "I built a new version of my fun spatial 3D online meeting ap",
+   "sectors": [
+    "Developer tools",
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-09-17T13:29:06.575Z"
+  },
   {
    "title": "Show HN: A beginner-friendly guide to building an operating system from scratch",
    "link": "https://github.com/red-mutt/lytlnyblOS",
