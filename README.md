@@ -1,6 +1,6 @@
-# Scout CRM + détection signaux faible 
+# Scout CRM + détection signaux faible, version publique
 
-Shoot me a DM on LinkedIn if you want to share some dealflow
+Shoot me a DM on LinkedIn if you want to share some dealflow. 
 
 
 
