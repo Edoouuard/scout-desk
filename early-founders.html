@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scout Radar Early Founders — public pre-validation founder signals.">
+  <title>Early Founders — Scout Radar</title>
+  <style>
+    :root { --bg:#0a0d12; --panel:#121722; --panel2:#0e131d; --line:#263044; --text:#edf2f8; --muted:#9eabbc; --accent:#73f7c1; --amber:#ffc857; --red:#ff7878; --blue:#9cd9ff; }
+    * { box-sizing:border-box; } html { background:var(--bg); } body { margin:0; font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--text); background:var(--bg); }
+    a { color:var(--blue); text-decoration:none; } a:hover { text-decoration:underline; }
+    header { border-bottom:1px solid var(--line); background:linear-gradient(110deg,#0f1824,#0a0d12 68%); } .nav { max-width:1260px; margin:auto; padding:15px 24px; display:flex; align-items:center; justify-content:space-between; gap:20px; } .brand { font-weight:850; color:var(--text); letter-spacing:-.02em; } .links { display:flex; gap:16px; align-items:center; } .links a { color:var(--muted); font-weight:650; } .links a.active { color:var(--accent); }
+    .hero { max-width:1260px; margin:auto; padding:25px 24px 20px; } h1 { margin:0; font-size:29px; letter-spacing:-.04em; } .sub { margin:7px 0 0; max-width:810px; color:var(--muted); }
+    main { max-width:1260px; margin:auto; padding:0 24px 32px; } .notice { border:1px solid #6b5520; color:#ffe6a4; background:#2b2413; border-radius:10px; padding:12px 14px; margin:0 0 18px; }
+    .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:18px; } .metric,.card { border:1px solid var(--line); background:var(--panel); border-radius:12px; } .metric { padding:15px; } .metric span { display:block; color:var(--muted); font-size:12px; } .metric strong { display:block; font-size:26px; margin-top:2px; }
+    .filters { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:10px; margin-bottom:16px; } input,select { width:100%; padding:10px 11px; color:var(--text); background:var(--panel2); border:1px solid var(--line); border-radius:8px; }
+    .list { display:grid; gap:12px; } .card { padding:16px; } .top { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; } h2 { margin:0; font-size:18px; letter-spacing:-.02em; } .meta { color:var(--muted); margin:4px 0 0; }
+    .score { min-width:54px; text-align:center; padding:7px 8px; border-radius:9px; font-weight:800; color:#082217; background:var(--accent); } .score.watch { color:#251600; background:var(--amber); } .score.low { color:#351010; background:var(--red); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px 18px; margin:15px 0; } .label { display:block; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.07em; } .value { display:block; margin-top:2px; }
+    .evidence { margin:0; padding:11px 12px; border-left:3px solid #46766a; background:#0d141c; color:#c6d1df; border-radius:0 8px 8px 0; }
+    .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:13px; } .tag,.status { padding:4px 8px; border:1px solid #314159; color:#b9c7d9; border-radius:999px; font-size:12px; } .status { color:var(--accent); border-color:#2f725b; }
+    .empty { text-align:center; color:var(--muted); padding:42px; } footer { max-width:1260px; margin:auto; color:var(--muted); padding:0 24px 24px; font-size:12px; }
+    @media(max-width:800px) { .metrics,.filters,.grid { grid-template-columns:1fr 1fr; } } @media(max-width:520px) { .nav,.links { gap:10px; } .metrics,.filters,.grid { grid-template-columns:1fr; } main,.hero,.nav { padding-left:15px; padding-right:15px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav"><a class="brand" href="./index.html">SCOUT RADAR</a><div class="links"><a href="./index.html">Radar</a><a class="active" href="./early-founders.html">Early Founders</a><a href="./free-research-recipes.md">Research playbook</a></div></nav>
+    <div class="hero"><h1>Early Founders</h1><p class="sub">Public signals of European operators who recently entered founder mode. Built to spot people before the ordinary institutional surface area appears.</p></div>
+  </header>
+  <main>
+    <div class="notice">These are source-backed public signals, not qualified dealflow. “No public funding found” and “no accelerator found” are checks to complete — not proof of absence.</div>
+    <section class="metrics" id="metrics"></section>
+    <section class="filters"><input id="search" placeholder="Search founder, employer, city, tag…"><select id="status"><option value="">All statuses</option><option value="needs_review">Needs review</option><option value="watch">Watch</option></select><select id="country"><option value="">All locations</option></select><select id="minScore"><option value="0">All scores</option><option value="70">70+ priority</option><option value="80">80+ high priority</option></select></section>
+    <section class="list" id="list"><div class="empty">Loading early-founder signals…</div></section>
+  </main>
+  <footer>Scout Radar · Early-stage signal inbox · Review evidence before contacting a founder.</footer>
+  <script>
+    const $ = s => document.querySelector(s); let signals = [];
+    const date = v => v ? new Date(v).toLocaleDateString('en-GB',{year:'numeric',month:'short',day:'numeric'}) : 'Unknown';
+    const esc = s => String(s || '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+    function render() {
+      const term=$('#search').value.toLowerCase(), status=$('#status').value, country=$('#country').value, min=+$('#minScore').value;
+      const rows=signals.filter(x=>JSON.stringify(x).toLowerCase().includes(term) && (!status||x.status===status) && (!country||x.location===country) && x.score>=min).sort((a,b)=>b.score-a.score);
+      const priority=signals.filter(x=>x.score>=70).length, review=signals.filter(x=>x.status==='needs_review').length, fresh=signals.filter(x=>x.signalDate.startsWith('2026-09')).length;
+      $('#metrics').innerHTML=`<div class="metric"><span>Public signals</span><strong>${signals.length}</strong></div><div class="metric"><span>Priority 70+</span><strong>${priority}</strong></div><div class="metric"><span>Needs review</span><strong>${review}</strong></div><div class="metric"><span>Fresh this month</span><strong>${fresh}</strong></div>`;
+      $('#list').innerHTML=rows.length?rows.map(x=>{const cl=x.score>=70?'':x.score>=60?'watch':'low'; return `<article class="card"><div class="top"><div><h2>${esc(x.fullName)} <span class="status">${esc(x.status.replace('_',' '))}</span></h2><p class="meta">${esc(x.companyOrProject)} · ${esc(x.location)} · signal ${date(x.signalDate)}</p></div><div class="score ${cl}">${x.score}</div></div><div class="grid"><div><span class="label">Previous role</span><span class="value">${esc(x.previousRole)}${x.previousEmployer!=='Undisclosed'?' · '+esc(x.previousEmployer):''}</span></div><div><span class="label">Project hypothesis</span><span class="value">${esc(x.whatBuilding)}</span></div><div><span class="label">Funding / accelerator check</span><span class="value">${esc(x.fundingCheck)}</span></div></div><p class="evidence">${esc(x.sourceExcerpt)} <a href="${esc(x.sourceUrl)}" target="_blank" rel="noreferrer">Open public signal ↗</a></p><div class="tags">${x.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')} ${x.reasons.map(r=>`<span class="tag">${esc(r)}</span>`).join('')}</div></article>`}).join(''):'<div class="empty">No early-founder signals match these filters.</div>';
+    }
+    fetch('./data/founder-signals.json').then(r=>r.json()).then(data=>{signals=data; const places=[...new Set(data.map(x=>x.location))].sort(); $('#country').insertAdjacentHTML('beforeend',places.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join('')); render();}).catch(()=>$('#list').innerHTML='<div class="empty">Could not load the early-founder dataset.</div>');
+    ['search','status','country','minScore'].forEach(id=>$('#'+id).addEventListener(id==='search'?'input':'change',render));
+  </script>
+</body>
+</html>
