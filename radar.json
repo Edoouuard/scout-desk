@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T14:43:47.555Z",
+ "generatedAt": "2026-10-29T14:50:58.510Z",
  "sources": [
   "FinSMEs",
   "TechCrunch Startups",
@@ -12,6 +12,1185 @@
   "Show HN"
  ],
  "items": [
+  {
+   "title": "Show HN: Grip – Open-Source Screen Studio Alternative for Mac",
+   "link": "https://bestboy.dev/grip",
+   "date": "2026-10-29T14:46:49Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Grip",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Show HN: Apargon – Ask AI for any app and run it safely with a double-click",
+   "link": "https://github.com/Orcaryn/Apargon",
+   "date": "2026-10-29T14:45:58Z",
+   "summary": "Hi HN, I think I solved personal software. I have dozens of personal apps. One queues my social posts, one scores Reddit threads for me, one is the email client for my domains, others solve small and big problems I face. Every one of them is a freaking project! Dozens of files, a build, updates, some need a server, yada yada yada. All that for an app with one user - me. It annoyed me so much that I asked: Why do I need all of that? Browsers open an HTML file with a double-click. No build, no server. But a browser can't reach my laptop freely, and for a real app I need it to. Why can't desktop ",
+   "source": "Show HN",
+   "company": "Apargon",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Show HN: Cooja-NG – IoT network emulator running real firmware in the browser",
+   "link": "https://mikroverk.github.io/cooja-ng/",
+   "date": "2026-10-29T14:45:29Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Cooja-NG",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Show HN: Overheard – a Mac meeting recorder you can query from Claude Code",
+   "link": "https://github.com/anonbeat1/overheard",
+   "date": "2026-10-29T14:44:55Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Overheard",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Show HN: Kin – Make your AI apps answer to you (allow, ask or block each action)",
+   "link": "https://kinlab.ai",
+   "date": "2026-10-29T14:38:02Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Kin",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Show HN: AWS China-A Control Tower Clone and a Multi-Account Compliance Baseline",
+   "link": "https://builder.aws.com/content/3LMdNqdrR6M68oYPRvKa5A1UmTC/aws-china-landing-zone-in-practice-a-control-tower-clone-and-a-multi-account-compliance-baseline",
+   "date": "2026-10-29T14:34:36Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "AWS China-A Control Tower Clone and a Multi-Account Complian",
+   "sectors": [
+    "Fintech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Nagi, Arc-style spaces in Chrome's side panel",
+   "link": "https://github.com/Nik-code/nagi",
+   "date": "2026-10-29T14:31:18Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Nagi, Arc-style spaces in Chrome's side panel",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: A browser app that controls my bike trainer over Bluetooth",
+   "link": "https://freebikeworkout.com/",
+   "date": "2026-10-29T14:27:04Z",
+   "summary": "I built my own workout app for my smart trainer (a Tacx Neo 2t). Added a system of streaks and points to motivate me train and it has become part of my daily routine. I am curious to know if it could be useful to someone else? I just wanted a quick way to train when I had some spare minutes. I didn’t want to subscribe to a full blown game. You pick how long you want to ride (any custom length or predefined workouts), connect your trainer from the browser via bluetooth, and it sets the resistance for you via ERG to give you a complete workout with wam-up, intervals and cool-down. No downloads, ",
+   "source": "Show HN",
+   "company": "browser app that controls my bike trainer over Bluetooth",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Mock Magic – device mockups for images and video, in the browser",
+   "link": "https://studio.mockmagic.com",
+   "date": "2026-10-29T14:23:16Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Mock Magic",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: LayerShop – a love child of ComfyUI and PhotoCraft",
+   "link": "https://github.com/SlavomirDurej/layershop",
+   "date": "2026-10-29T14:22:09Z",
+   "summary": "You might have seen PhotoCraft, an open-source Photoshop-style editor. It's great, but it was missing one important ingredient: generative AI. LayerShop fills that gap, and unlike Photoshop, it can run the models locally on your own GPU, for free. Here are the AI features you get with LayerShop: - a guided ComfyUI install (the engine) - guided download and setup of local models, including the latest ones like MOSS Image, Ming, Ernie, FLUX.3 Klein, Z-Image, Krea 2 and Ideogram 4 - support for the latest cloud (paid) models like GPT Image 2.5 Sunburst and Flare, FLUX 3, Grok Imagine 2 and Nano B",
+   "source": "Show HN",
+   "company": "LayerShop",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Seqora – Desktop DB Workbench for PostgreSQL, MySQL and SQLite",
+   "link": "https://seqora.dev/",
+   "date": "2026-10-29T14:15:39Z",
+   "summary": "I built Seqora as a solo developer because I was tired of DBeaver and TablePlus, the tools I was using. None of them felt like modern tooling. DBeaver is mature, but it lacks customization and it’s slow. TablePlus puts too many limits on its free tier, like only allowing two tabs open at a time. What I wanted to do differently in Seqora was to let me visualize different objects, like indexes, partitions, etc. Another thing I found most tools lacked was a way to figure out what’s slowing down a complex query, so I built a visual EXPLAIN that shows where the time goes. I put the main focus on th",
+   "source": "Show HN",
+   "company": "Seqora",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Cornercase – terminal multiplexer for running coding agents in parallel",
+   "link": "https://github.com/usecornercase/cornercase-terminal",
+   "date": "2026-10-29T14:12:36Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Cornercase",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: SpaceApp – Run several AI coding CLIs side by side, self-hosted",
+   "link": "https://github.com/oll4com/spaceapp",
+   "date": "2026-10-29T14:12:21Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "SpaceApp",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Repdle – Daily 60s fitness challenge using on-device pose detection",
+   "link": "https://repdle.repdle.workers.dev",
+   "date": "2026-10-29T14:11:40Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Repdle",
+   "sectors": [
+    "Consumer"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Trick or Take: Steal candy with friends in a Halloween browser game",
+   "link": "https://trickortake.com",
+   "date": "2026-10-29T14:08:45Z",
+   "summary": "I wanted to make a little game to play with friends for Halloween. We’re all adults now, but I missed that feeling of sneaking candy as a kid. So I made Trick or Take. You have 60 seconds to steal as much candy as you can without getting caught. Whoever gets the most wins. You can play in your browser and chat with friends while you play.",
+   "source": "Show HN",
+   "company": "Trick or Take",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: ROAL – AI phone host for restaurants that builds itself from your site",
+   "link": "https://tryroal.com",
+   "date": "2026-10-29T14:08:16Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "ROAL",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: OLake – Open-Source Postgres/MySQL/MongoDB CDC to Apache Iceberg",
+   "link": "https://github.com/datazip-inc/olake",
+   "date": "2026-10-29T14:06:32Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "OLake",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Node research browser for knowledge networking",
+   "link": "https://noderesearch.app/",
+   "date": "2026-10-29T14:06:02Z",
+   "summary": "Hey y’all! I’m a product designer (with adhd, this will come back) currently working on learning engineering to get on the design engineering bandwagon. Doing research on safari, chrome and llms felt horribly decentralized due to the lack of visual and contextual history, as my method of research is to get deep into granular information in order to understand new concepts in depth. This made me so fed up that I wanted a way to create a Time Machine through my research in order to track the context of why I ended up where I was and be able to return to sources that interested me. I call it NODE",
+   "source": "Show HN",
+   "company": "Node research browser for knowledge networking",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: OurSpace 2.0 – a Retro Toggle that rebuilds your page as 2006 MySpace",
+   "link": "https://ourspacevibes.com",
+   "date": "2026-10-29T13:55:46Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "OurSpace 2.0",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: MCP bridge for chat between OpenCode and Claude Code sessions",
+   "link": "https://github.com/shivnathtathe/openbridge",
+   "date": "2026-10-29T13:55:40Z",
+   "summary": "I didn’t want to copy and paste messages between coding-agent sessions or across vendors, so I built an MCP server that lets one model in one session talk to another model in a different session. They can even have a group chat. It supports multiple OpenCode sessions and lets GPT-6.1 in OpenCode talk to Claude in Claude Code.",
+   "source": "Show HN",
+   "company": "MCP bridge for chat between OpenCode and Claude Code session",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Vigo – YAML config management, 1-second check-ins, offline convergence",
+   "link": "https://vigo.alexander4.io/",
+   "date": "2026-10-29T13:53:47Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Vigo",
+   "sectors": [
+    "Fintech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: TaintWall – a runtime firewall against injected runbook steps",
+   "link": "https://github.com/NagaYu/taintwall",
+   "date": "2026-10-29T13:49:08Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "TaintWall",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: GFC – Turn your GitHub profile into fc card",
+   "link": "https://github.com/mukundzha/gfc",
+   "date": "2026-10-29T13:45:08Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "GFC",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Parallel-text reading in 17 languages, and translate your own books",
+   "link": "https://duotext.io/?utm_source=hn",
+   "date": "2026-10-29T13:44:28Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Parallel-text reading in 17 languages, and translate your ow",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: No String Theory – a store that sells air guitars (the box is real)",
+   "link": "https://nostringtheory.com?utm_source=hn&utm_medium=social&utm_campaign=launch",
+   "date": "2026-10-29T13:41:19Z",
+   "summary": "No String Theory sells air guitars! This is one of the last things I built the infa for before being forced into the AI-first age. Actual purchased designs, docs-based implementation, etc. It has since been updated with AI, and uses AI-made images. 4Boys is out to have fun, and let's be honest, these days the void beckons!",
+   "source": "Show HN",
+   "company": "No String Theory",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Letterblade – open Outlook .msg files on Mac, Linux and Windows",
+   "link": "https://github.com/DenissLarka/letterblade",
+   "date": "2026-10-29T13:40:00Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Letterblade",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Kolo – share agent sessions like Google Docs",
+   "link": "https://github.com/komovaar/kolo",
+   "date": "2026-10-29T13:33:15Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Kolo",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: MyPrintables, a simple, small, and fast 3D assets manager",
+   "link": "https://news.ycombinator.com/item?id=50288599",
+   "date": "2026-10-29T13:20:43Z",
+   "summary": "https://github.com/liyu1981/my-printables Self-hosted, Printables-inspired 3D model library. One Go binary embeds the API, React SPA, migrations, and the administrative CLI. Finally I built this printables clone for my nas to manage my 3d print models better. With Pi-in-go agent + deepseek v4.1's help. It is pretty small, even with docker image is <30MB. If you are finding another small fast management app like me, may be worth a try.",
+   "source": "Show HN",
+   "company": "MyPrintables, a simple, small, and fast 3D assets manager",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: SpaceX's first decade, rebuilt from its own company updates",
+   "link": "https://spacex.explorist.io/",
+   "date": "2026-10-29T13:19:53Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "SpaceX's first decade, rebuilt from its own company updates",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Crewd NPM-style package manager for AI coding agents and skills",
+   "link": "https://news.ycombinator.com/item?id=50288521",
+   "date": "2026-10-29T13:17:25Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Crewd NPM-style package manager for AI coding agents and ski",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.508Z"
+  },
+  {
+   "title": "Show HN: Nouli – A multi-turn decision graph harness for System One models",
+   "link": "https://github.com/standing-desks/nouli",
+   "date": "2026-10-29T13:12:44Z",
+   "summary": "I've been fine tuning my own decision models lately and I've been interested in how there are no real multi-turn harnesses out there for decision models. I decided to build my own. The standard claude code style interface doesn't quite make sense with a decision model since it isn't a conversation so I built this out as a sort-of REPL inspired interface. You can also use it with the command line. You just type facts as you get them and ask questions with a ?. The questions stick around so every new fact gets asked again and you can see the probabilities move. You can use this to chain together",
+   "source": "Show HN",
+   "company": "Nouli",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: GetTaxNomad-Open tool to model schengen 90/180 days and nomad expat tax",
+   "link": "https://gettaxnomad.com/",
+   "date": "2026-10-29T13:07:42Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "GetTaxNomad-Open tool to model schengen 90/180 days and noma",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: A tool to capture eye blinks, a fatigue checker for eyes",
+   "link": "https://blinkwell.netlify.app/",
+   "date": "2026-10-29T13:05:51Z",
+   "summary": "Hi All. I have created this tool because my eyes used to get tired due to screen-time on laptop. I needed a tool which captures my eye-blinks and let me know a fatigue score for my eyes. Tool installs in laptop with single command, starts with a command on a cli, and webcam captures eyes for 60 seconds every 10 mins. I then once in a while to view the data graphically by running a command(blinkwell report) to understand my blinkwell pattern. Do try it and see if it helps you. Thanks.",
+   "source": "Show HN",
+   "company": "tool to capture eye blinks, a fatigue checker for eyes",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Vibecheck – a pre-launch security audit for AI-built apps",
+   "link": "https://github.com/ribato22/vibecheck",
+   "date": "2026-10-29T13:05:36Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Vibecheck",
+   "sectors": [
+    "Defense & security"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 70,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: I made a card game where you use cards to make a target number",
+   "link": "https://zodwick.com/cardinal/",
+   "date": "2026-10-29T13:01:51Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "I made a card game where you use cards to make a target numb",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Free tool that shops your Shopify store and screenshots each step",
+   "link": "https://cartbeam.infinityore.com/",
+   "date": "2026-10-29T13:01:36Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Free tool that shops your Shopify store and screenshots each",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: FacetShelf – an eBook reader that translates whole books as you read",
+   "link": "https://www.facetshelf.com/",
+   "date": "2026-10-29T12:58:13Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "FacetShelf",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Pidgeon – Email inboxes for AI agents",
+   "link": "https://pidgeon.ai",
+   "date": "2026-10-29T12:55:12Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Pidgeon",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Hackerscad – script 3D solids in a C/JS-like language, with MCP server",
+   "link": "https://hackerscad.com",
+   "date": "2026-10-29T12:54:51Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Hackerscad",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Ford's $1.3B USMCA risk, priced from prediction markets (open source)",
+   "link": "https://github.com/juwonyee/election-risk",
+   "date": "2026-10-29T12:38:02Z",
+   "summary": "Hi HN, I built this because I was wondering how can I use the numbers from prediction markets in a good way. You give it a company, it finds the Kalshi and Polymarket markets that could affect it then it will turn each one into a profit impact in dollars, with sources. It runs as Agent Skills, so you can just try it on any company in Claude Code or Codex.",
+   "source": "Show HN",
+   "company": "Ford's $1.3B USMCA risk, priced from prediction markets (ope",
+   "sectors": [
+    "AI infrastructure",
+    "Developer tools"
+   ],
+   "amount": "$1.3B",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: MorsePass – Web Audio Morse code trainer and FCC ham exam practice",
+   "link": "https://morsepass.com/",
+   "date": "2026-10-29T12:36:28Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "MorsePass",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: The AI workspace for teammates share agents on company",
+   "link": "https://github.com/ahmadrosid/nakama",
+   "date": "2026-10-29T12:35:56Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "workspace for teammates share agents on company",
+   "sectors": [
+    "AI infrastructure",
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "French startup Bleu Robotics secures €5 million to teach humanoid robots new tasks with fewer demonstrations",
+   "link": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/",
+   "date": "2026-10-29T12:35:45.000Z",
+   "summary": "Bleu Robotics, a Paris-based startup building AI models for industrial humanoid robots, has raised a €5 million pre-Seed round, to reach its goal of reducing the full humanoid robot deployment process to one hour or shorter. The round was co-led by Contrarian Ventures and OVNI Capital, with participation from Kvanted, WEPA Ventures, Motier Ventures and […] The post French startup Bleu Robotics secures €5 million to teach humanoid robots new tasks with fewer demonstrations appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "startup Bleu Robotics",
+   "sectors": [
+    "Developer tools",
+    "Deep tech"
+   ],
+   "amount": "€5 million",
+   "stage": "Pre-seed",
+   "signalType": "Funding announcement",
+   "score": 100,
+   "firstSeen": "2026-10-29T14:50:58.504Z"
+  },
+  {
+   "title": "Show HN: Universal Blindspot Detector (AI meta-analysis)",
+   "link": "https://trooperloops.com/upload",
+   "date": "2026-10-29T12:29:57Z",
+   "summary": "This is a rough \"blindspot detector\" for AI conversations. Basically, the tool reframes conversations and tries to find the smallest moves the user COULD have made to have surfaced unknown assumptions for whatever problem they were solving. The goal is to show the value of using AI as a reflective surface to search for \"unknown unknowns\" or \"things YOU didn't know you needed to know\". ------------------------- The basic premise is this: For any given AI conversation, the quality of the output (for the specified goal) depends on the context from which decisions can be made. You can learn to sur",
+   "source": "Show HN",
+   "company": "Universal Blindspot Detector (AI meta-analysis)",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Live visualisation of UK rivers, tides and sewage releases",
+   "link": "https://spate.mk.gg/",
+   "date": "2026-10-29T12:25:58Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Live visualisation of UK rivers, tides and sewage releases",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Macvoice – A local voice agent for Mac in 1.4 GB, no PyTorch",
+   "link": "https://github.com/johnrobinsn/macvoice",
+   "date": "2026-10-29T12:25:54Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Macvoice",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Nori – A fast Git client for reviewing and landing your agents' work",
+   "link": "https://meetnori.app/",
+   "date": "2026-10-29T12:23:56Z",
+   "summary": "Hi HN, I'd like to present Nori, a Git client built with performance and low resource consumption in mind. Nori helps you review your agents' work and easily rebase, commit, push and PR your worktrees. It's available on Mac, Windows and Linux. Nori is free for common Git features (even for private repos). You can buy a one-time Pro license for $20, which lets you list and manage reviews and issues right in Nori.",
+   "source": "Show HN",
+   "company": "Nori",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Game to Learn Python Programming",
+   "link": "https://algocademy.com/play/booly/",
+   "date": "2026-10-29T12:15:57Z",
+   "summary": "A gamified mini course that teaches python and programming thinking.",
+   "source": "Show HN",
+   "company": "Game to Learn Python Programming",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Sovereign – free financial crisis SIM webgame",
+   "link": "https://sovereign-ministry.vercel.app",
+   "date": "2026-10-29T12:05:00Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Sovereign",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: AQVEN – typed LLM workflows, checked before a token is spent",
+   "link": "https://github.com/lastonoga/AQVEN",
+   "date": "2026-10-29T11:56:19Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "AQVEN",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "StrollMe bags €22 million to put more bikes, strollers and car seats into European homes",
+   "link": "https://www.eu-startups.com/2026/10/strollme-bags-e22-million-to-put-more-bikes-strollers-and-car-seats-into-european-homes/",
+   "date": "2026-10-29T11:45:50.000Z",
+   "summary": "Strollme, a German provider of children’s mobility on subscription, has secured €22 million in equity and debt financing to support their growth in its existing markets and lay the foundation for future expansion into other European countries. Existing investors including Hanse Ventures, HGDF, JOSS and business angel Kristina Schreiner from the better ventures network are […] The post StrollMe bags €22 million to put more bikes, strollers and car seats into European homes appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "StrollMe",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "€22 million",
+   "stage": "Angel",
+   "signalType": "Funding announcement",
+   "score": 90,
+   "firstSeen": "2026-10-29T14:50:58.504Z"
+  },
+  {
+   "title": "Show HN: AI social media interview platform",
+   "link": "https://www.spotlytt.com/",
+   "date": "2026-10-29T11:33:29Z",
+   "summary": "Looking for feedback on product functionality wise. Already working on design changes.",
+   "source": "Show HN",
+   "company": "social media interview platform",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Audio-chat-box – offline speech in and out for any program, over stdio",
+   "link": "https://github.com/cjus/audio-chat-box",
+   "date": "2026-10-29T11:19:30Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Audio-chat-box",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Google translate replacement for language learners",
+   "link": "https://manalect.com/",
+   "date": "2026-10-29T11:16:08Z",
+   "summary": "Hi HN, I'm Musab and I'm building Manalect. Find TL;DR at the end. Most language apps fall short for me in two ways: 1. They’re not personalized enough. I get taught things I don’t care about, things that are too hard for me, and things I already know. 2. They don’t teach that well. I keep seeing question types where my brain does almost no work to figure out the answer, therefore learn nothing. I think the biggest reason they're not personalized enough is that they don't have a detailed enough representation of a language. Most apps have efficient review scheduling for the words you learn. Bu",
+   "source": "Show HN",
+   "company": "Google translate replacement for language learners",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: UK Farming Simulator",
+   "link": "https://butterbean.farm/",
+   "date": "2026-10-29T11:15:59Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Farming Simulator",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: YC Office Hours for New Product Ideas",
+   "link": "https://www.agentflux.org/signin?redirect_url=%2Fdashboard%2Fworkflow%2Fhik59xkj7wrstjzvzg3ks02x",
+   "date": "2026-10-29T11:14:13Z",
+   "summary": "Run through the YC Office Hours workflow to verify your new product ideas",
+   "source": "Show HN",
+   "company": "YC Office Hours for New Product Ideas",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Skipper, a Ship's Logbook App for iPhone and iPad",
+   "link": "https://skipper.alpennec.com/",
+   "date": "2026-10-29T11:11:55Z",
+   "summary": "Hey HN, I’ve been working on Skipper for a few years now, it's an iOS app to log sailing and boating trips (think Strava but for sailing and boating). I know this is a super niche topic that might not resonate with the average HN audience, but if you happen to spend time on the water, I’d love to get your feedback! Thank you, - axel",
+   "source": "Show HN",
+   "company": "Skipper, a Ship's Logbook App for iPhone and iPad",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: SetEnforce – Domain security scans mapped to NIS2, ISO 27001 and BSI",
+   "link": "https://setenforce.org/",
+   "date": "2026-10-29T11:09:03Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "SetEnforce",
+   "sectors": [
+    "Defense & security"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Control – Data Observability for Postgres, Pipelines and CDC",
+   "link": "https://control.turbolytics.io/",
+   "date": "2026-10-29T10:55:09Z",
+   "summary": "Hello Everyone! I built control.turbolytics.io for data observability. The goal is to provide a cost-effective way to monitor postgres and data pipelines at scale. Onboarding a new db takes minutes. Controls entire purpose is to answer the question: \"Are customers being affected?\" I have experience operating pretty large data clusters and pipelines (100's of thousands of instances). Control takes these learnings and exposes them in the product: - SLO based alerts by default model that errors exist in reality - Verdicts provide health classifications, instead of requiring the operator to read t",
+   "source": "Show HN",
+   "company": "Control",
+   "sectors": [
+    "Developer tools",
+    "Health & bio"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: Levo – a macOS menu bar app for timed stretch breaks",
+   "link": "https://levo.zaploom.in/",
+   "date": "2026-10-29T10:44:07Z",
+   "summary": "",
+   "source": "Show HN",
+   "company": "Levo",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.509Z"
+  },
+  {
+   "title": "Show HN: I got tired of travel spreadsheets so I made a travel planner app",
+   "link": "https://www.wherewhen.cc",
+   "date": "2026-10-29T10:37:20Z",
+   "summary": "Hey everyone! I couldn't find an app to organize trips that gave me all the info I wanted to schedule each stop per day, with travel times, leeway, etc, so I made Wherewhen. The basic differentiator is that you can set various constraints (e.g. \"I want to spend 2 hours in the park\", or \"I have a dinner reservation at 6\"), and Wherewhen will automatically adjust the rest of the times to tell you when to go/leave each place, including travel. I've tried to make it mobile-friendly but travel planning is pretty complicated and it's a bit clunky on mobile. Feedback is appreciated!",
+   "source": "Show HN",
+   "company": "I got tired of travel spreadsheets so I made a travel planne",
+   "sectors": [
+    "Consumer"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.510Z"
+  },
+  {
+   "title": "EXCLUSIVE: Freiburg’s VUSE XR raises €1.2 million to bring AI-powered mixed reality training to enterprises",
+   "link": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/",
+   "date": "2026-10-29T08:01:41.000Z",
+   "summary": "VUSE XR, a Freiburg-based startup developing enterprise software for mixed reality training, today announced the closing of a €1.2 million pre-Seed financing round. The round was led by IACD, a Düsseldorf-based business angel network, with additional participation from individual business angels. “From an investor’s perspective, VUSE XR brings together everything we look for at this […] The post EXCLUSIVE: Freiburg’s VUSE XR raises €1.2 million to bring AI-powered mixed reality training to enterprises appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "EXCLUSIVE: Freiburg’s VUSE XR",
+   "sectors": [],
+   "amount": "€1.2 million",
+   "stage": "Pre-seed",
+   "signalType": "Funding announcement",
+   "score": 70,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
+  {
+   "title": "Auriga Partners reaches €80 million interim close for second fund dedicated to cybersecurity",
+   "link": "https://www.eu-startups.com/2026/10/auriga-partners-reaches-e80-million-interim-close-for-second-fund-dedicated-to-cybersecurity/",
+   "date": "2026-10-29T07:29:02.000Z",
+   "summary": "Auriga Partners, a Paris-based asset management firm specialising in venture capital and innovation investment, has announced an €80 million interim close for Auriga Cyber Ventures II, its second fund dedicated exclusively to cybersecurity. Auriga Cyber Ventures II is backed by Bpifrance through the French National Seed Fund No. 3, managed on behalf of the French […] The post Auriga Partners reaches €80 million interim close for second fund dedicated to cybersecurity appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "Auriga Partners reaches €80 million interim close for second",
+   "sectors": [
+    "Developer tools",
+    "Defense & security"
+   ],
+   "amount": "€80 million",
+   "stage": "Seed",
+   "signalType": "Funding announcement",
+   "score": 100,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
+  {
+   "title": "Profitable Dutch startup Braid raises €34.13 million to help brands launch their own mobile connectivity",
+   "link": "https://www.eu-startups.com/2026/10/profitable-dutch-startup-braid-raises-e34-12-to-help-brands-launch-their-own-mobile-connectivity/",
+   "date": "2026-10-29T06:14:26.000Z",
+   "summary": "Braid, a Dutch company that enables enterprises to launch their own branded mobile connectivity, has raised €34.13 million ($38 million) in a Series A funding round. The company also announced its rebrand from Next Communications. The raise marks the company’s first external capital since it was founded in 2023 and was led by London-based Octopus […] The post Profitable Dutch startup Braid raises €34.13 million to help brands launch their own mobile connectivity appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "Profitable Dutch startup Braid",
+   "sectors": [
+    "Developer tools"
+   ],
+   "amount": "€34.13 million",
+   "stage": "Series A",
+   "signalType": "Funding announcement",
+   "score": 90,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
+  {
+   "title": "Arco",
+   "link": "https://www.producthunt.com/products/arco-4",
+   "date": "2026-10-29T05:31:15.000Z",
+   "summary": "<p> GitHub and Linear issues, right inside your Codex </p> <p> <a href=\"https://www.producthunt.com/products/arco-4?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296725?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Arco",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
+   "title": "Exclusive: Deeptech startup MuRay raises €7.1m to see inside rocket engines",
+   "link": "https://sifted.eu/articles/exclusive-deeptech-startup-muray-raises-e7-1m-to-see-inside-rocket-engines/",
+   "date": "2026-10-29T05:00:56.000Z",
+   "summary": "",
+   "source": "Sifted",
+   "company": "Exclusive: Deeptech startup MuRay",
+   "sectors": [],
+   "amount": "€7.1m",
+   "stage": "",
+   "signalType": "Funding announcement",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
+  {
+   "title": "The French robotics startup promising to deploy industrial humanoids after just 20 minutes of training",
+   "link": "https://sifted.eu/articles/french-robotics-startup-industrial-humanoids-20-minutes-of-training/",
+   "date": "2026-10-29T05:00:50.000Z",
+   "summary": "",
+   "source": "Sifted",
+   "company": "startup promising to deploy industrial humanoids after just ",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Other",
+   "score": 35,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
+  {
+   "title": "This fintech wasn’t ‘actively’ fundraising. Then it closed a $90m round at an $800m valuation",
+   "link": "https://sifted.eu/articles/spiko-interview/",
+   "date": "2026-10-29T05:00:32.000Z",
+   "summary": "",
+   "source": "Sifted",
+   "company": "This fintech wasn’t ‘actively’ fundraising. Then it closed a",
+   "sectors": [
+    "Fintech"
+   ],
+   "amount": "$90m",
+   "stage": "",
+   "signalType": "Funding announcement",
+   "score": 65,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
+  {
+   "title": "Flatbread",
+   "link": "https://www.producthunt.com/products/flatbread",
+   "date": "2026-10-28T23:47:45.000Z",
+   "summary": "<p> Share the whole agent run, not a screenshot </p> <p> <a href=\"https://www.producthunt.com/products/flatbread?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296492?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Flatbread",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+   "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+   "date": "2026-10-28T23:15:00.000Z",
+   "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+   "source": "TechCrunch Startups",
+   "company": "Upwind",
+   "sectors": [
+    "Defense & security"
+   ],
+   "amount": "$400M",
+   "stage": "Series C",
+   "signalType": "Funding announcement",
+   "score": 35,
+   "firstSeen": "2026-10-29T14:50:58.503Z"
+  },
+  {
+   "title": "AssemblyAI",
+   "link": "https://www.producthunt.com/products/assemblyai",
+   "date": "2026-10-28T22:35:24.000Z",
+   "summary": "<p> text-to-speech built for voice agents </p> <p> <a href=\"https://www.producthunt.com/products/assemblyai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296456?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "AssemblyAI",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "AutoShelf 2.6",
+   "link": "https://www.producthunt.com/products/autoshelf",
+   "date": "2026-10-28T22:19:51.000Z",
+   "summary": "<p> Automate any folder on your Mac with if-this-then-that rules </p> <p> <a href=\"https://www.producthunt.com/products/autoshelf?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296450?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "AutoShelf 2.6",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Polylane for ChatGPT",
+   "link": "https://www.producthunt.com/products/polylane",
+   "date": "2026-10-28T22:04:42.000Z",
+   "summary": "<p> Ask ChatGPT what broke in production </p> <p> <a href=\"https://www.producthunt.com/products/polylane?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296440?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Polylane for ChatGPT",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Floot in ChatGPT",
+   "link": "https://www.producthunt.com/products/floot",
+   "date": "2026-10-28T20:14:10.000Z",
+   "summary": "<p> Build and publish real apps without leaving ChatGPT </p> <p> <a href=\"https://www.producthunt.com/products/floot?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296361?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Floot in ChatGPT",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
+   "title": "Suno MCP",
+   "link": "https://www.producthunt.com/products/suno",
+   "date": "2026-10-28T18:33:54.000Z",
+   "summary": "<p> The music layerfor your AI stack </p> <p> <a href=\"https://www.producthunt.com/products/suno?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296260?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Suno MCP",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "IFTTT.ai",
+   "link": "https://www.producthunt.com/products/ifttt",
+   "date": "2026-10-28T18:26:21.000Z",
+   "summary": "<p> The easiest way to automate anything </p> <p> <a href=\"https://www.producthunt.com/products/ifttt?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296248?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "IFTTT.ai",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
+   "title": "Gemini 4 Carbon",
+   "link": "https://www.producthunt.com/products/gemini-4-carbon",
+   "date": "2026-10-28T17:27:14.000Z",
+   "summary": "<p> Google's next frontier model </p> <p> <a href=\"https://www.producthunt.com/products/gemini-4-carbon?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1296195?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Gemini 4 Carbon",
+   "sectors": [
+    "Energy & climate"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "German startups are betting big on Japan. Should the rest of Europe follow?",
+   "link": "https://www.eu-startups.com/2026/10/german-startups-are-betting-big-on-japan-should-the-rest-of-europe-follow/",
+   "date": "2026-10-28T15:44:35.000Z",
+   "summary": "German startups are increasingly looking towards Japan as a destination for international expansion, industrial partnerships and technological cooperation. From DefenceTech and nuclear fusion to quantum computing and space infrastructure, recent developments suggest that Tokyo is becoming an important partner for some of Europe’s most ambitious technology companies. This momentum became particularly visible today, during German […] The post German startups are betting big on Japan. Should the rest of Europe follow? appeared first on EU-Startups .",
+   "source": "EU-Startups",
+   "company": "startups are betting big on Japan. Should the rest of Europe",
+   "sectors": [
+    "Energy & climate",
+    "Deep tech",
+    "Defense & security"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Other",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.505Z"
+  },
   {
    "title": "Show HN: Goxlint, custom linting rule engine for Go inspired by oxlint",
    "link": "https://github.com/egoisutolabs/goxlint",
@@ -716,6 +1895,36 @@
    "firstSeen": "2026-10-28T14:43:47.553Z"
   },
   {
+   "title": "MAO",
+   "link": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
+   "date": "2026-10-28T11:27:28.000Z",
+   "summary": "<p> Team up Claude Code, Codex and Grok on one canvas </p> <p> <a href=\"https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295807?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "MAO",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "StoreLocale",
+   "link": "https://www.producthunt.com/products/storelocale",
+   "date": "2026-10-28T11:24:39.000Z",
+   "summary": "<p> Translate app UI in App Store & Google Play screenshots </p> <p> <a href=\"https://www.producthunt.com/products/storelocale?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295803?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "StoreLocale",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
    "title": "Show HN: Toolvy – 120 media tools that run in the browser",
    "link": "https://toolvy.net/",
    "date": "2026-10-28T11:17:48Z",
@@ -777,6 +1986,20 @@
    "firstSeen": "2026-10-28T14:43:47.549Z"
   },
   {
+   "title": "Smart Jelly",
+   "link": "https://www.producthunt.com/products/smart-jelly",
+   "date": "2026-10-28T10:57:05.000Z",
+   "summary": "<p> Your everyday AI tools and memory in one Mac app. </p> <p> <a href=\"https://www.producthunt.com/products/smart-jelly?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295773?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Smart Jelly",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
    "title": "Show HN: Ballast – macOS app to clear disk space",
    "link": "https://github.com/linearza/ballast",
    "date": "2026-10-28T10:36:15Z",
@@ -792,6 +2015,34 @@
    "signalType": "Product launch",
    "score": 65,
    "firstSeen": "2026-10-28T14:43:47.554Z"
+  },
+  {
+   "title": "Kin",
+   "link": "https://www.producthunt.com/products/kin-6",
+   "date": "2026-10-28T10:24:00.000Z",
+   "summary": "<p> The AI labs want to own you. Make them answer to you. </p> <p> <a href=\"https://www.producthunt.com/products/kin-6?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295725?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Kin",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
+   "title": "Notch Metrics",
+   "link": "https://www.producthunt.com/products/notch-metrics",
+   "date": "2026-10-28T09:57:56.000Z",
+   "summary": "<p> Put your revenue and product analytics metrics in the notch </p> <p> <a href=\"https://www.producthunt.com/products/notch-metrics?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295697?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Notch Metrics",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
   },
   {
    "title": "As Merz visits Japan, energy startup Proxima Fusion moves to secure Germany’s place in the global fusion race",
@@ -1053,6 +2304,20 @@
    "firstSeen": "2026-10-28T14:43:47.551Z"
   },
   {
+   "title": "Recall for Mac",
+   "link": "https://www.producthunt.com/products/recall-for-mac",
+   "date": "2026-10-28T06:10:13.000Z",
+   "summary": "<p> Remember everything that happens on your Mac </p> <p> <a href=\"https://www.producthunt.com/products/recall-for-mac?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295465?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Recall for Mac",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
    "title": "licenseal",
    "link": "https://www.producthunt.com/products/licenseal",
    "date": "2026-10-28T02:28:19.000Z",
@@ -1083,6 +2348,20 @@
    "firstSeen": "2026-10-28T14:43:47.550Z"
   },
   {
+   "title": "Confetti",
+   "link": "https://www.producthunt.com/products/confetti-5",
+   "date": "2026-10-27T23:51:07.000Z",
+   "summary": "<p> Easiest way to build hardware gadgets using plain English </p> <p> <a href=\"https://www.producthunt.com/products/confetti-5?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295225?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Confetti",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
    "title": "Guidewire buys Hyperexponential for $1.7B in cash",
    "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
    "date": "2026-10-27T22:26:03.000Z",
@@ -1097,6 +2376,36 @@
    "signalType": "Funding announcement",
    "score": 65,
    "firstSeen": "2026-10-28T14:43:47.548Z"
+  },
+  {
+   "title": "Basedash View-only members",
+   "link": "https://www.producthunt.com/products/basedash",
+   "date": "2026-10-27T21:26:34.000Z",
+   "summary": "<p> Share dashboards with anyone. They can look, not edit. </p> <p> <a href=\"https://www.producthunt.com/products/basedash?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295138?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Basedash View-only members",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
+   "title": "Radar",
+   "link": "https://www.producthunt.com/products/radar-7",
+   "date": "2026-10-27T20:41:59.000Z",
+   "summary": "<p> You don't need an AI SRE. Give your agent Radar. </p> <p> <a href=\"https://www.producthunt.com/products/radar-7?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295110?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Radar",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
   },
   {
    "title": "Re:Build, which spun out Slate Auto, raises $2.1B",
@@ -1129,6 +2438,20 @@
    "firstSeen": "2026-10-28T14:43:47.551Z"
   },
   {
+   "title": "Reset Alerts",
+   "link": "https://www.producthunt.com/products/reset-alerts",
+   "date": "2026-10-27T19:57:18.000Z",
+   "summary": "<p> Codex Reset Alerts via Text (Use it Before You Lose It) </p> <p> <a href=\"https://www.producthunt.com/products/reset-alerts?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1295075?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Reset Alerts",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.507Z"
+  },
+  {
    "title": "Boltbar",
    "link": "https://www.producthunt.com/products/boltbar",
    "date": "2026-10-27T18:33:40.000Z",
@@ -1157,6 +2480,22 @@
    "signalType": "Product launch",
    "score": 55,
    "firstSeen": "2026-10-28T14:43:47.551Z"
+  },
+  {
+   "title": "Voxel51 Multimodal",
+   "link": "https://www.producthunt.com/products/voxel51",
+   "date": "2026-10-27T17:03:15.000Z",
+   "summary": "<p> Better data. Smarter robots. Repeat. </p> <p> <a href=\"https://www.producthunt.com/products/voxel51?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1294880?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Voxel51 Multimodal",
+   "sectors": [
+    "Deep tech"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
   },
   {
    "title": "Our Silly Games",
@@ -1233,6 +2572,20 @@
    "firstSeen": "2026-10-28T14:43:47.551Z"
   },
   {
+   "title": "Enclave",
+   "link": "https://www.producthunt.com/products/enclave-2",
+   "date": "2026-10-27T15:45:58.000Z",
+   "summary": "<p> One hover, everything you need. </p> <p> <a href=\"https://www.producthunt.com/products/enclave-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1294798?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Enclave",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
    "title": "Impress bags €40 million EIB financing to expand its digital orthodontics network across Europe",
    "link": "https://www.eu-startups.com/2026/10/impress-bags-e40-million-eib-financing-to-expand-its-digital-orthodontics-network-across-europe/",
    "date": "2026-10-27T15:29:01.000Z",
@@ -1273,6 +2626,20 @@
    "signalType": "Funding announcement",
    "score": 40,
    "firstSeen": "2026-10-28T14:43:47.549Z"
+  },
+  {
+   "title": "Empacer",
+   "link": "https://www.producthunt.com/products/empacer",
+   "date": "2026-10-27T13:56:57.000Z",
+   "summary": "<p> The voice-first assistant for small business owners </p> <p> <a href=\"https://www.producthunt.com/products/empacer?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1294677?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Empacer",
+   "sectors": [],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 45,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
   },
   {
    "title": "Show HN: Monita – Site reliability for every project your team ships",
@@ -2622,6 +3989,22 @@
    "firstSeen": "2026-10-27T13:49:58.861Z"
   },
   {
+   "title": "Intrascope 2.0",
+   "link": "https://www.producthunt.com/products/intrascope-app",
+   "date": "2026-10-26T13:58:42.000Z",
+   "summary": "<p> New AI agent, 1,650+ apps, Skills and smart model routing </p> <p> <a href=\"https://www.producthunt.com/products/intrascope-app?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1293404?app_id=339\">Link</a> </p>",
+   "source": "Product Hunt",
+   "company": "Intrascope 2.0",
+   "sectors": [
+    "AI infrastructure"
+   ],
+   "amount": "",
+   "stage": "",
+   "signalType": "Product launch",
+   "score": 55,
+   "firstSeen": "2026-10-29T14:50:58.506Z"
+  },
+  {
    "title": "Show HN: Building the European Company Graph one website at a time",
    "link": "https://firmendaten.researchly.at/netzwerk",
    "date": "2026-10-26T13:58:24Z",
@@ -3142,1394 +4525,6 @@
    "signalType": "Product launch",
    "score": 45,
    "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Find Open Source Alternatives to Paid Software",
-   "link": "https://www.opensourcealternatives.to",
-   "date": "2026-10-26T11:05:36Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Find Open Source Alternatives to Paid Software",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Ultimidi – piano learning web game",
-   "link": "https://game.ultimidi.com/",
-   "date": "2026-10-26T10:58:23Z",
-   "summary": "Hi HN, 10 years ago, as my BsC final project I had the idea to make a quick game that used neural nets to detect notes played on a guitar, and I made a small mini-game to make use of that. I always wanted to improve on that idea, so last year I started making my own piano-learning game. You know how in most games you learn complex key combinations and sequences (i.e. Mortal Kombat fatalities), but those don't have much use outside of the game. My idea was to make a game that can be played with the piano, so you you learn notes, chords, scales simply by playing. While making it and prototyping ",
-   "source": "Show HN",
-   "company": "Ultimidi",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Hookgap can do passive email and website security checks for any domain",
-   "link": "https://hookgap.com/",
-   "date": "2026-10-26T10:55:47Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Hookgap can do passive email and website security checks for",
-   "sectors": [
-    "Defense & security"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Speech-to-text in the browser with Whisper and Parakeet, no server",
-   "link": "https://whisper.tanpreet.xyz/",
-   "date": "2026-10-26T10:53:04Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Speech-to-text in the browser with Whisper and Parakeet, no ",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Italy’s Z_One Fund secures over €35 million at first close to back AI and UrbanTech startups",
-   "link": "https://www.eu-startups.com/2026/10/italys-z_one-fund-secures-over-e35-million-at-first-close-to-back-ai-and-urbantech-startups/",
-   "date": "2026-10-26T10:52:08.000Z",
-   "summary": "Z_One Fund, the Italian venture capital fund managed by Eureka! Venture has announced the first close at more than €35 million, with a total fundraising target of €60 million. The fund’s investor base includes some of Italy’s most prominent institutional investors. CDP Venture Capital SGR has committed capital through its newly launched Fondo Acceleratori 2. […] The post Italy’s Z_One Fund secures over €35 million at first close to back AI and UrbanTech startups appeared first on EU-Startups .",
-   "source": "EU-Startups",
-   "company": "Italy’s Z_One Fund",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "€35 million",
-   "stage": "",
-   "signalType": "Funding announcement",
-   "score": 50,
-   "firstSeen": "2026-10-26T14:42:58.003Z"
-  },
-  {
-   "title": "Show HN: Mob programming with AI agents, built on OpenSpec and OpenCode",
-   "link": "https://griyd.com",
-   "date": "2026-10-26T10:46:16Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Mob programming with AI agents, built on OpenSpec and OpenCo",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "With the EU now in range of Russian attacks, Helsing unveils new AI-powered missile defence system",
-   "link": "https://www.eu-startups.com/2026/10/with-the-eu-now-in-range-of-russian-attacks-helsing-unveils-new-ai-powered-missile-defence-system/",
-   "date": "2026-10-26T10:32:22.000Z",
-   "summary": "In response to recent reports of Russian advancement in drone and missile production, German military AI startup Helsing has unveiled Contra; an AI-controlled autonomous air defence system against scaled drone and missile attacks. The company also introduced two advanced interceptor missiles, AD-1 Inferno and AD-2 Ambush, designed to outmatch and outrun even the fastest jet-powered […] The post With the EU now in range of Russian attacks, Helsing unveils new AI-powered missile defence system appeared first on EU-Startups .",
-   "source": "EU-Startups",
-   "company": "With the EU now in range of Russian attacks, Helsing",
-   "sectors": [
-    "Defense & security"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.003Z"
-  },
-  {
-   "title": "Show HN: A Minecraft mod that generates the world at 1:1 scale",
-   "link": "https://github.com/pirut/earth-platform",
-   "date": "2026-10-26T10:25:55Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Minecraft mod that generates the world at 1",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Nord Theme for Cursor",
-   "link": "https://github.com/willio/nord-theme-for-cursor",
-   "date": "2026-10-26T10:17:29Z",
-   "summary": "Cursor only offers light & dark mode, but I've grown accustomed to Nord's low-contrast, legible palette (great for long sessions). So I wrote a Nord glass theme into its theme store: chrome, git colors, terminal ANSI.",
-   "source": "Show HN",
-   "company": "Nord Theme for Cursor",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Paycoinly WordPress Plugin",
-   "link": "https://github.com/Paycoinly-Tech/wordpress",
-   "date": "2026-10-26T09:59:07Z",
-   "summary": "Paycoinly is a Crypto Payment Gateway tech@paycoinly.xyz",
-   "source": "Show HN",
-   "company": "Paycoinly WordPress Plugin",
-   "sectors": [
-    "Fintech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Claude optimizes mel-band roformer to run 4x faster on Mac",
-   "link": "https://github.com/aipdv/fast-melroformer",
-   "date": "2026-10-26T09:55:54Z",
-   "summary": "i vibecoded-ly optimized mel-band roformer by 4 times. the original model ran 1.3x on my mac, but after series of experimentation it optimized it by 4x everything is open-source.",
-   "source": "Show HN",
-   "company": "Claude optimizes mel-band roformer to run 4x faster on Mac",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Deepswapp Browser: browser the browser with another browser",
-   "link": "https://deepswapp.com",
-   "date": "2026-10-26T09:34:54Z",
-   "summary": "A \"deepswapp\" of a website has data from one website in a layout of another website. Deepswapp Browser allows users to seamlessly browse this alternative version of the Internet, today. Video: https://deepswapp.com/assets/deepswapp.mp4 The whole Web can look like Wikipedia, old Reddit, or your own website. Once deepswapped, the website transformation is reusable without AI. Single-file HTML page Only essential data rendered Synchronized tabs Synchronized scrolling No backgrounds No animations Data auto-refresh Image lazy loading This desktop app works on every platform (Docker images also avai",
-   "source": "Show HN",
-   "company": "Deepswapp Browser",
-   "sectors": [
-    "Fintech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Rewrite, a free editor that rewrites text and edits Word, LaTeX and PDF",
-   "link": "https://samratduttaofficial.github.io/Rewrite/",
-   "date": "2026-10-26T09:32:30Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Rewrite, a free editor that rewrites text and edits Word, La",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: Load-lock, a machine-wide semaphore for parallel AI coding agents",
-   "link": "https://github.com/aron98/load-lock",
-   "date": "2026-10-26T09:08:22Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Load-lock, a machine-wide semaphore for parallel AI coding a",
-   "sectors": [
-    "AI infrastructure",
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: QueryForge – Natural language to validated database queries",
-   "link": "https://queryforge-service.amtry.in/",
-   "date": "2026-10-26T09:01:10Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "QueryForge",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Finland’s Volare raises €7.1 million and opens 5,000-tonne insect protein factory",
-   "link": "https://www.eu-startups.com/2026/10/finlands-volare-raises-e7-1-million-and-opens-5000-tonne-insect-protein-factory/",
-   "date": "2026-10-26T08:40:40.000Z",
-   "summary": "Volare, a Finnish DeepTech company turning food-industry side streams into high-quality insect protein, has inaugurated its first industrial-scale facility called Volare 01 in Pori, Finland, and raised €7.1 million in fresh funding. The funding came from Springvest, with backing from both new and existing investors, including venture capital firm Maki.vc. “Volare 01 proves that our […] The post Finland’s Volare raises €7.1 million and opens 5,000-tonne insect protein factory appeared first on EU-Startups .",
-   "source": "EU-Startups",
-   "company": "Finland’s Volare",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "€7.1 million",
-   "stage": "",
-   "signalType": "Funding announcement",
-   "score": 65,
-   "firstSeen": "2026-10-26T14:42:58.003Z"
-  },
-  {
-   "title": "Show HN: ISPA – Parser generator with grammar-level debugger and error recovery",
-   "link": "https://github.com/Sinfolke/ispa-parser-generator",
-   "date": "2026-10-26T08:38:19Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "ISPA",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Lausanne’s Sonexos raises €5.4 million to tackle low-frequency noise from fans, compressors and even data centres",
-   "link": "https://www.eu-startups.com/2026/10/lausannes-sonexos-raises-e5-4-million-to-tackle-low-frequency-noise-from-fans-compressors-and-even-data-centres/",
-   "date": "2026-10-26T08:20:38.000Z",
-   "summary": "Sonexos, a Lausanne-based DeepTech company, has raised approximately €5.4 million (CHF 5 million/USD 6.1 million) in new equity financing to take its solid-state noise control from working prototypes to industrial production. The round was led by Valquest Partners, with participation from Robert Bosch Venture Capital GmbH (Bosch Ventures) and industry angels and private investors. Fadi […] The post Lausanne’s Sonexos raises €5.4 million to tackle low-frequency noise from fans, compressors and even data centres appeared first on EU-Startups .",
-   "source": "EU-Startups",
-   "company": "Lausanne’s Sonexos",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "€5.4 million",
-   "stage": "",
-   "signalType": "Funding announcement",
-   "score": 80,
-   "firstSeen": "2026-10-26T14:42:58.003Z"
-  },
-  {
-   "title": "Show HN: ShellSprint – A typing game-ish for Linux and Kubernetes commands",
-   "link": "https://shellsprint-dev.pages.dev",
-   "date": "2026-10-26T08:18:10Z",
-   "summary": "I made this to help myself memorise and recognise commands. I'm not saying it’s a proven method and will make you a wizard, but it works for me and I enjoy it.",
-   "source": "Show HN",
-   "company": "ShellSprint",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Frankfurt’s QuoIntelligence lands backing from ex-German finance minister Christian Lindner months after €7.3 million Series A",
-   "link": "https://www.eu-startups.com/2026/10/frankfurts-quointelligence-secures-backing-from-ex-german-finance-minister-christian-lindner-months-after-e7-3-million-series-a/",
-   "date": "2026-10-26T08:00:28.000Z",
-   "summary": "QuoIntelligence, the Frankfurt-based cybersecurity startup, has received a new investment from Christian Lindner, the former German Federal Finance Minister. The investment came through his investment vehicle, Christian Lindner Beteiligungsgesellschaft, but the deal’s financial terms were not disclosed. The investment follows the company’s €7.3 million Series A funding round, closed in April 2026 and led by […] The post Frankfurt’s QuoIntelligence lands backing from ex-German finance minister Christian Lindner months after €7.3 million Series A appeared first on EU-Startups .",
-   "source": "EU-Startups",
-   "company": "Frankfurt’s QuoIntelligence",
-   "sectors": [
-    "Defense & security"
-   ],
-   "amount": "€7.3 million",
-   "stage": "Series A",
-   "signalType": "Funding announcement",
-   "score": 80,
-   "firstSeen": "2026-10-26T14:42:58.003Z"
-  },
-  {
-   "title": "Show HN: I made an open-source phone app that debloats your Google TV over Wi-Fi",
-   "link": "https://github.com/man15h/tellyscope",
-   "date": "2026-10-26T07:52:42Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "I made an open-source phone app that debloats your Google TV",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.008Z"
-  },
-  {
-   "title": "Show HN: A clipboard manager that protects secrets",
-   "link": "https://clipaudit.app/",
-   "date": "2026-10-26T07:52:40Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "clipboard manager that protects secrets",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.009Z"
-  },
-  {
-   "title": "Show HN: FazerWM, a scrollable tiling window manager for macOS",
-   "link": "https://fazerwm.app/",
-   "date": "2026-10-26T07:51:10Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "FazerWM, a scrollable tiling window manager for macOS",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.009Z"
-  },
-  {
-   "title": "Show HN: Continue Your Google AI Mode Chats in Gemini/Claude",
-   "link": "https://chromewebstore.google.com/detail/relay-continue-google-sea/fjjfadgooapnegipjocinojjhaajghag",
-   "date": "2026-10-26T07:35:56Z",
-   "summary": "I'd often make Google searches whose AI overviews would lead me to ask followups and create AI Mode threads. The key problem was that these chats were ephemeral. So I decided to make this extension that can help replay the chats and responses verbatim in your platform of choice (Gemini and Claude for now), so that the chats remain forever. The chats are replayed faithfully so that the new platform has all the context.",
-   "source": "Show HN",
-   "company": "Continue Your Google AI Mode Chats in Gemini/Claude",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.009Z"
-  },
-  {
-   "title": "Show HN: pw-repl - A Playwright-powered REPL for you and your agents to share",
-   "link": "https://github.com/arcanemachine/pw-repl",
-   "date": "2026-10-26T07:28:33Z",
-   "summary": "For the busy people out there, the GitHub repo has a demo video so you can see if this is worth your time: https://github.com/arcanemachine/pw-repl The video was created by Opus 5.5; I just asked it to create a demo video (it has a 'record' tool), so I think this is a good idea of how well it can work with the tool. --- pw-repl is a tool that makes it easy for you and your agents to work with Playwright+CDP in a browser (your current headed session, or a headless one, or both at the same time; take your pick). It's basically a Playwright-powered swiss army knife that helps you and agents poke ",
-   "source": "Show HN",
-   "company": "pw-repl - A Playwright-powered REPL for you and your agents ",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.009Z"
-  },
-  {
-   "title": "AllModels",
-   "link": "https://www.producthunt.com/products/allmodels-io",
-   "date": "2026-10-26T05:15:29.000Z",
-   "summary": "<p> Explore every abliterated model </p> <p> <a href=\"https://www.producthunt.com/products/allmodels-io?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292894?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "AllModels",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.006Z"
-  },
-  {
-   "title": "Exclusive: Heartcore Capital leads $17m raise for AI agent startup Nous",
-   "link": "https://sifted.eu/articles/nous-ai-agent-funding-round-monzo-tom-blomfield/",
-   "date": "2026-10-26T05:00:14.000Z",
-   "summary": "",
-   "source": "Sifted",
-   "company": "Exclusive",
-   "sectors": [
-    "AI infrastructure",
-    "Developer tools"
-   ],
-   "amount": "$17m",
-   "stage": "",
-   "signalType": "Funding announcement",
-   "score": 75,
-   "firstSeen": "2026-10-26T14:42:58.004Z"
-  },
-  {
-   "title": "Exclusive: General Catalyst-backed Strawberry launches first full product, 'the European alternative' to US agents",
-   "link": "https://sifted.eu/articles/strawberry-browser-1-0/",
-   "date": "2026-10-26T05:00:08.000Z",
-   "summary": "",
-   "source": "Sifted",
-   "company": "Exclusive: General Catalyst-backed Strawberry",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 80,
-   "firstSeen": "2026-10-26T14:42:58.004Z"
-  },
-  {
-   "title": "Scaleup capital drives a fifth straight quarter of growth, as Paris and Munich outstrip London",
-   "link": "https://sifted.eu/articles/europe-third-consecutive-record-quarter-paris-munich-outstrip-london/",
-   "date": "2026-10-26T05:00:00.000Z",
-   "summary": "",
-   "source": "Sifted",
-   "company": "Scaleup capital drives a fifth straight quarter of growth, a",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Other",
-   "score": 35,
-   "firstSeen": "2026-10-26T14:42:58.004Z"
-  },
-  {
-   "title": "Standfast",
-   "link": "https://www.producthunt.com/products/standfast",
-   "date": "2026-10-26T02:50:33.000Z",
-   "summary": "<p> Know if your Mac's GitHub Actions runners will get work </p> <p> <a href=\"https://www.producthunt.com/products/standfast?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292792?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "Standfast",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "Jobmate AI",
-   "link": "https://www.producthunt.com/products/jobmate-ai-3",
-   "date": "2026-10-25T22:59:42.000Z",
-   "summary": "<p> The humanized AI Copilot for your entire Job search </p> <p> <a href=\"https://www.producthunt.com/products/jobmate-ai-3?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292687?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "Jobmate AI",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "AVP",
-   "link": "https://www.producthunt.com/products/avp",
-   "date": "2026-10-25T22:53:07.000Z",
-   "summary": "<p> Open source alternative to Git for AI coding agents </p> <p> <a href=\"https://www.producthunt.com/products/avp?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292685?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "AVP",
-   "sectors": [
-    "AI infrastructure",
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "WhoIsCooking",
-   "link": "https://www.producthunt.com/products/whoiscooking",
-   "date": "2026-10-25T21:45:54.000Z",
-   "summary": "<p> See which AI agent is heating your Mac and cool it down. </p> <p> <a href=\"https://www.producthunt.com/products/whoiscooking?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292664?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "WhoIsCooking",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "VibeiDE",
-   "link": "https://www.producthunt.com/products/vibeide",
-   "date": "2026-10-25T21:30:48.000Z",
-   "summary": "<p> Queue agent tasks in parallel and review each result </p> <p> <a href=\"https://www.producthunt.com/products/vibeide?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292655?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "VibeiDE",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "omerta",
-   "link": "https://www.producthunt.com/products/omerta",
-   "date": "2026-10-25T21:11:05.000Z",
-   "summary": "<p> Catch .env secrets leaking into git </p> <p> <a href=\"https://www.producthunt.com/products/omerta?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292641?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "omerta",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.006Z"
-  },
-  {
-   "title": "ManyAgents",
-   "link": "https://www.producthunt.com/products/manyagents",
-   "date": "2026-10-25T19:55:39.000Z",
-   "summary": "<p> Run a team of AI coding agents from one Mac window </p> <p> <a href=\"https://www.producthunt.com/products/manyagents?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292599?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "ManyAgents",
-   "sectors": [
-    "AI infrastructure",
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "desigma",
-   "link": "https://www.producthunt.com/products/desigma",
-   "date": "2026-10-25T19:20:38.000Z",
-   "summary": "<p> Free Figma alternative made on Rust </p> <p> <a href=\"https://www.producthunt.com/products/desigma?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292572?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "desigma",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "Alex Depledge departs UK treasury job, criticising 'sideshow' treatment of scaleups",
-   "link": "https://sifted.eu/articles/alex-depledge-quits-uk-startups-scaleups-sideshow/",
-   "date": "2026-10-25T18:43:50.000Z",
-   "summary": "",
-   "source": "Sifted",
-   "company": "Alex Depledge departs UK treasury job, criticising 'sideshow",
-   "sectors": [
-    "Fintech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Other",
-   "score": 35,
-   "firstSeen": "2026-10-26T14:42:58.004Z"
-  },
-  {
-   "title": "Mozy",
-   "link": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-   "date": "2026-10-25T16:15:13.000Z",
-   "summary": "<p> App Blocker for Android & iPhone </p> <p> <a href=\"https://www.producthunt.com/products/mozy-walk-to-unlock-apps?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292433?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "Mozy",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.006Z"
-  },
-  {
-   "title": "Show HN: I checked 16,899 insider stock buys – most didn't beat the S&P 500",
-   "link": "https://www.insiderprint.com/setup-odds",
-   "date": "2026-10-25T12:33:08Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "I checked 16,899 insider stock buys",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Find overlapping Rust tests with mutation testing",
-   "link": "https://github.com/yasuyuky/cargo-test-prune",
-   "date": "2026-10-25T12:02:00Z",
-   "summary": "To tackle the ever-increasing number of tests, I built cargo-test-prune. The idea behind it is to use cargo-mutants to generate mutants, and then solve the set cover problem for those mutants to suggest which tests can be eliminated. (use a greedy algorithm to cover the detected mutants with fewer tests) I came up with this as a countermeasure against the monotonically increasing tests that tend to accumulate, especially when coding with AI. In fact, this very repository was also written using AI. I ran this tool on a previous revision of this repository. There were 11 tests and 108 generated ",
-   "source": "Show HN",
-   "company": "Find overlapping Rust tests with mutation testing",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Shrinking my 159-byte x86-64 Hello World ELF to 153 bytes",
-   "link": "https://blog.lohr.dev/hello-world-contd",
-   "date": "2026-10-25T12:00:06Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Shrinking my 159-byte x86-64 Hello World ELF to 153 bytes",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: EdgePad – tool for configuring edge touchpad gestures on Linux laptops",
-   "link": "https://github.com/assembledev/edgepad",
-   "date": "2026-10-25T11:39:53Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "EdgePad",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Zest",
-   "link": "https://www.producthunt.com/products/zest-6",
-   "date": "2026-10-25T11:30:16.000Z",
-   "summary": "<p> Hold ⌥Space, flick, and an AI agent does the dev chore </p> <p> <a href=\"https://www.producthunt.com/products/zest-6?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292176?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "Zest",
-   "sectors": [
-    "AI infrastructure",
-    "Deep tech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-28T14:43:47.551Z"
-  },
-  {
-   "title": "Show HN: Clara – a decision model that returns a probability for every answer",
-   "link": "https://api.saanora.com/docs",
-   "date": "2026-10-25T10:44:33Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Clara",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Philosphic Moon in your terminal where you can meet other scientists",
-   "link": "https://github.com/SorBalda/philosophic-moon",
-   "date": "2026-10-25T10:30:42Z",
-   "summary": "A small, persistent place where developers and scientists can chat together while observing stars and galactic wars, with a chill lo-fi music. It works completely in the temrminal, and also vocal chat works",
-   "source": "Show HN",
-   "company": "Philosphic Moon in your terminal where you can meet other sc",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Where does my tax go? A UK tax receipt calculator (2026/27)",
-   "link": "https://wheredoesmytaxgo.co.uk/",
-   "date": "2026-10-25T10:23:12Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Where does my tax go? A UK tax receipt calculator (2026/27)",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Echoboard where AI agents do science and humans only watch",
-   "link": "https://jevontane.com/echoboard/",
-   "date": "2026-10-25T10:18:31Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Echoboard where AI agents do science and humans only watch",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: OpenXet",
-   "link": "https://github.com/stubbi/openxet",
-   "date": "2026-10-25T09:29:43Z",
-   "summary": "Xet [1] seems like a good idea in a world of ever more data hungry applications. It's used in Huggingface's service but the server side has been kept close source. I started reengineering it with Claude from the protocol descriptions to provide it for everyone. If you think it's cool, I am grateful for any stars and feedback! Please no AI-Slop discussions. I am optimistic about the potential for this kind of service since the client is open source and some blog posts describe the mechanisms. Still happy to hear where it's taking wrong directions and needs more guidance. [1] https://huggingface",
-   "source": "Show HN",
-   "company": "OpenXet",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "tabsh",
-   "link": "https://www.producthunt.com/products/tabsh",
-   "date": "2026-10-25T09:18:55.000Z",
-   "summary": "<p> Work with agents with an IDE in your browser tab </p> <p> <a href=\"https://www.producthunt.com/products/tabsh?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1292068?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "tabsh",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "Show HN: Online Ruler, a Free Ruler for Your Screen",
-   "link": "https://onlineruler.in",
-   "date": "2026-10-25T09:18:26Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Online Ruler, a Free Ruler for Your Screen",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: ToolsOfWeb – 69 free online tools that run in the browser",
-   "link": "https://www.toolsofweb.com/",
-   "date": "2026-10-25T09:02:05Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "ToolsOfWeb",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Black Swan – a Flappy Bird where the rules randomly break",
-   "link": "https://www.flappyswan.com/",
-   "date": "2026-10-25T08:54:11Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Black Swan",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Only thing you need to stay informed on tech without doom scrolling x",
-   "link": "https://techtwitter.io",
-   "date": "2026-10-25T08:48:45Z",
-   "summary": "made techtwitter.io, it's a daily newspaper of tech twitter to help stay updated on all things tech twitter for people in tech, to avoid having to scroll on x to stay updated",
-   "source": "Show HN",
-   "company": "Only thing you need to stay informed on tech without doom sc",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: AI:Predict, Retrieve, Generate, Recommend, Decide, Act, and Orchestrate",
-   "link": "https://www.researchgate.net/publication/415644138_EASCM_White_Paper_Luthera_2026_v10",
-   "date": "2026-10-25T08:42:21Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "AI",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Zilum – A tiny Snipping Tool alternative for Windows 11",
-   "link": "https://zilum.app",
-   "date": "2026-10-25T08:26:51Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Zilum",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Hindsight – Lightweight, elegant, open-source tracker for Windows/macOS",
-   "link": "https://github.com/Tomotsugu-dev/Hindsight",
-   "date": "2026-10-25T07:04:10Z",
-   "summary": "Hi HN, I’m building Hindsight, a free, open-source activity tracker for Windows and macOS. I know there are plenty of time trackers. I wanted something that combined automatic tracking, detailed charts, and cross-device sync in a lightweight app with an interface I enjoyed using. I couldn’t find a free option that fit, so I started building my own. Hindsight records active apps and window titles while it’s running, without requiring you to start and stop timers. You can explore your activity through daily, weekly, and monthly charts, drill down into individual apps and window titles, and use a",
-   "source": "Show HN",
-   "company": "Hindsight",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "AgentGrid.io",
-   "link": "https://www.producthunt.com/products/agentgrid-io",
-   "date": "2026-10-25T05:39:16.000Z",
-   "summary": "<p> Shared workspace for humans and agents </p> <p> <a href=\"https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1291942?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "AgentGrid.io",
-   "sectors": [
-    "AI infrastructure",
-    "Energy & climate",
-    "Deep tech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-25T12:52:47.332Z"
-  },
-  {
-   "title": "Show HN: Music player for visually exploring music collection",
-   "link": "https://github.com/Cliff-Lee/melodex",
-   "date": "2026-10-25T05:23:26Z",
-   "summary": "I created Melodex for rediscovering my music collection. I got bored of listening to the same songs over and over. Shuffle didn't do it for me either, as I wanted something that moved between the songs like a journey with more cohesion. Alongside the ability to plan routes from a starting song to a final destination, the routes through the music map are navigable too. There's a few other features like plugins to connect radio stations, or other music sources too which were a big project in terms of getting the plugin structure right to get working with almost any online source now. Looking for",
-   "source": "Show HN",
-   "company": "Music player for visually exploring music collection",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Free Local Letterboxd Analytics",
-   "link": "https://letterboxd.ddns.net/",
-   "date": "2026-10-25T04:48:37Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Free Local Letterboxd Analytics",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Independent Vet – Find locally owned vets (and corporate ones) near you",
-   "link": "https://independentvet.com/",
-   "date": "2026-10-25T04:26:00Z",
-   "summary": "Three years ago, our dog was sideswiped by a car and my wife took him to the local vet in Berkeley. Unfortunately, things did not go well and to cut a long story short, he passed after 2 days and $13k of bills for very limited care. I was surprised to learn that the seemingly mom & pop practice had been acquired by a PE-owned consolidator and that around 50% of practices in the US are now owned by mostly PE-backed corporate groups - a trend that rapidly accelerated after COVID. I started a small janky passion project called https://privateequityvet.org which used Leaflet.js to map corporately ",
-   "source": "Show HN",
-   "company": "Independent Vet",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "$13k",
-   "stage": "",
-   "signalType": "Funding announcement",
-   "score": 35,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Git-ing Over it, learn Git like you'll use it IRL",
-   "link": "https://git-ing-over-it.vercel.app/",
-   "date": "2026-10-25T04:23:11Z",
-   "summary": "Hi HN! I made a browser game called Git-ing Over It around the git situations you might actually run into at work. It's completely free, 14 levels, no sign up! A Slack message, some objectives, a terminal, and at times a browser window or a code file welcome you in each level. Each level is a mix of 'whose fault it is '- sometimes it's you, sometimes it's your made-up teammate's, and sometimes it's just a bad Monday situation. It's a real git engine so the answers are judged on the final state of the repo. No LLMs checking it, and no direct command-based solutions. It is more intended for earl",
-   "source": "Show HN",
-   "company": "Git-ing Over it, learn Git like you'll use it IRL",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.333Z"
-  },
-  {
-   "title": "Show HN: Dadgpt Open Source Halloween Costume",
-   "link": "https://dadgptcostume.vercel.app/",
-   "date": "2026-10-25T04:10:48Z",
-   "summary": "Fork the repo. Load it on your phone. Attach your phone to a baseball hat. Make it your own. Happy Halloween.",
-   "source": "Show HN",
-   "company": "Dadgpt Open Source Halloween Costume",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: A Truly Modular Keyboard",
-   "link": "https://github.com/notaroomba/keybytes",
-   "date": "2026-10-25T03:47:56Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Truly Modular Keyboard",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: AgentSkill – Yara-L-Skill",
-   "link": "https://github.com/ajaynyayapathi/yara-l-skill",
-   "date": "2026-10-25T03:32:56Z",
-   "summary": "An Agent Skill that teaches AI coding agents to write, review, tune, and convert YARA-L 2.0 detection rules for Google Security Operations (SecOps, formerly Chronicle).",
-   "source": "Show HN",
-   "company": "AgentSkill",
-   "sectors": [
-    "AI infrastructure",
-    "Developer tools",
-    "Defense & security"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Four-Leaf job matches that find you automatically",
-   "link": "https://four-leaf.ai/jobs",
-   "date": "2026-10-25T03:25:36Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Four-Leaf job matches that find you automatically",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: AI Heat Map Sourced from over 140 News Feeds",
-   "link": "https://ai.jagular.io",
-   "date": "2026-10-25T03:25:15Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Heat Map Sourced from over 140 News Feeds",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: An OSS browser and work environment for humans and agents",
-   "link": "https://github.com/zephium-browser/Zephium",
-   "date": "2026-10-25T03:16:39Z",
-   "summary": "Fast, private, fully-featured, built in Rust (forked Wry, system's WebView). 40 MB. Not a Chromium fork. Native adblocking (forked adblock-rust), major Chrome extension support, deeply integrated productivity tools, a custom agentic browsing engine, and a lot more. It's not just another wrapper built in a few days. And... Work mode: a shared environment where you and AI agents can browse, research, build, and get real work done together. Live browser sessions, parallel sub-agents, tools, files, components, and interactive results, all in one canvas. AI is optional (disable in one click). No te",
-   "source": "Show HN",
-   "company": "OSS browser and work environment for humans and agents",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Close the UI building AI agent loop with Protoshot",
-   "link": "https://npmjs.com/protoshot",
-   "date": "2026-10-25T03:10:26Z",
-   "summary": "Protoshot scans your css files and components and lets you write just some JSX to preview it. A much simpler setup than having to orchestrate agent-browser or puppeteer instance for just seeing what UI looks like.",
-   "source": "Show HN",
-   "company": "Close the UI building AI agent loop with Protoshot",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Bell Weather – recent weather ranked against every year on record (iOS)",
-   "link": "https://bellweather.dev/",
-   "date": "2026-10-25T02:17:30Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Bell Weather",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: AI Senate – AI senators debate live policy and vote on the record",
-   "link": "https://aisenatus.com",
-   "date": "2026-10-25T02:15:29Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Senate",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Offline, open-source app to recover a seed phrase with a missing word",
-   "link": "https://github.com/Miztahj866/Seed-Recovery",
-   "date": "2026-10-25T01:46:50Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Offline, open-source app to recover a seed phrase with a mis",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "Seed",
-   "signalType": "Product launch",
-   "score": 70,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
-   "link": "https://huggingface.co/destined/hurston-1",
-   "date": "2026-10-25T01:30:13Z",
-   "summary": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I’m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comfortable using and interacting with AI. Since 2021, I’ve been collecting fully consented voice data from over 20,000 people, 1M audio recordings, and over 1,800 hrs of audio captured to date. For this model, I used a small part of the data, 136 hrs",
-   "source": "Show HN",
-   "company": "Hurston-1 open source TTS that speak Southern American and A",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Mood Writer – a text editor that plays nature sounds to help you focus",
-   "link": "https://www.moodwriter.app/",
-   "date": "2026-10-25T01:18:07Z",
-   "summary": "It has a built in pomodoro timer to schedule work sessions and breaks. And it also has a whiteboard to help you organize references and ideas.",
-   "source": "Show HN",
-   "company": "Mood Writer",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
-   "link": "https://adrs.systems",
-   "date": "2026-10-25T00:43:47Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "ADRs for AI",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Reusable, spectraly shaped Blue Noise point clouds",
-   "link": "https://github.com/For-a-few-DPPs-more/hyperuniform-samplers",
-   "date": "2026-10-24T23:42:32Z",
-   "summary": "Blue noise is the task of sampling a collection of points optimally placed to cover space randomly yet uniformly. -randomly: no periodic pattern or undesired ordered structure, to prevent aliasing effects. -uniformly: no empty regions, clusters... that would unavoidably appear by just using a raw random generator because of natural fluctuations. In spectral language, one can take the Fourier transform of the point cloud. For a blue noise, it's amplitude should be: - 0 or small at low frequencies. This ensures long-range order. - 1 or not too big at high frequencies (short-range disorder). Henc",
-   "source": "Show HN",
-   "company": "Reusable, spectraly shaped Blue Noise point clouds",
-   "sectors": [
-    "Deep tech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Orgiggly – Claude Code plugin that hosts the apps it builds",
-   "link": "https://github.com/orgiggly/claude-plugin",
-   "date": "2026-10-24T23:39:50Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Orgiggly",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Redmi phone can do things that $16K GPU is needed for on Ethereum",
-   "link": "https://github.com/ignotusnemo/paramo1d",
-   "date": "2026-10-24T23:32:57Z",
-   "summary": "Recursive State proof verification from genesis: 10.78 seconds Peak process memory: 192.2 MiB Subsequent block downloads and verification: 11.94–13.20 seconds",
-   "source": "Show HN",
-   "company": "Redmi phone can do things that $16K GPU is needed for on Eth",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "$16K",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: Sparse kernel delivering 36% higher training throughput",
-   "link": "https://huggingface.co/JakCwi/eugen-sparse",
-   "date": "2026-10-24T23:25:57Z",
-   "summary": "I developed a custom GPU kernel in Triton to accelerate training with a sparse feed-forward network (FFN). With K=256, activating 256 of 4,096 FFN neurons per token (6.25%), the sparse model achieved 36% higher training throughput than its dense counterpart. The kernel has so far been tested on a single NVIDIA RTX PRO 6000 GPU and requires GPU hardware with BF16 support. Whether a model trained with a sparse FFN and densified afterwards can match the quality of a model trained densely remains an open question. These early results have motivated me to continue training a larger model using this",
-   "source": "Show HN",
-   "company": "Sparse kernel delivering 36% higher training throughput",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: CodeAIHQ – High-performance technical analysis of cinema VFX pipelines",
-   "link": "https://codeaihq.com/dawn-of-the-planet-of-the-apes-vfx-pipeline/",
-   "date": "2026-10-24T23:21:48Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "CodeAIHQ",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Kiwi",
-   "link": "https://www.producthunt.com/products/kiwi-7",
-   "date": "2026-10-24T23:19:29.000Z",
-   "summary": "<p> A proactive AI assistant that texts you before you ask </p> <p> <a href=\"https://www.producthunt.com/products/kiwi-7?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1291790?app_id=339\">Link</a> </p>",
-   "source": "Product Hunt",
-   "company": "Kiwi",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-26T14:42:58.005Z"
-  },
-  {
-   "title": "Show HN: Omni Verify, my AI agent can't post until Kane checks every promise",
-   "link": "https://github.com/DainoJung/omni-verify",
-   "date": "2026-10-24T23:15:01Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Omni Verify, my AI agent can't post until Kane checks every ",
-   "sectors": [
-    "AI infrastructure"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.334Z"
-  },
-  {
-   "title": "Show HN: DeepSearch – Search engine built on DeepSeek API",
-   "link": "https://deepsearch.ing/",
-   "date": "2026-10-24T22:44:35Z",
-   "summary": "DeepSeek launched their search API so I had to build a search engine on top of it. The search engine is very simple: add your DeepSeek API credentials or OAuth with your DeepSeek account and you can search the web using their API and view results in a familiar web interface. Credentials are stored locally only. The search engine exposes the operators from the API: - Time - Language - Exact terms with \"...\" (like Google used to) - Forbidden terms with \"-\" - Site search and excluded sites Search results expose things like domain authority, rank etc. You can also switch to Ask and get a generated",
-   "source": "Show HN",
-   "company": "DeepSearch",
-   "sectors": [
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 70,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Call4me – a ChatGPT plugin that lets it make phone calls on your behalf",
-   "link": "https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me",
-   "date": "2026-10-24T22:00:59Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Call4me",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: A client-side adaptive cognitive test measuring micro-hesitations",
-   "link": "https://kat-assessment.com/",
-   "date": "2026-10-24T21:56:06Z",
-   "summary": "Hi HN! I’m not a software engineer by trade. My background is in behavioral science and human-computer interaction, but I wanted to solve a specific problem I found when applying for jobs which is the logical test. They are booooring, easy to cheat on if you really want to and provides very limited information about people. I built this prototype from scratch sing AI to bring my idea to life. So now I've been working on this side project for a Cognitive Adaption Engine (CAT/KAT in swedish) for about three weeks. Many pre-employment screening tests i've done use a static item bank and are very ",
-   "source": "Show HN",
-   "company": "client-side adaptive cognitive test measuring micro-hesitati",
-   "sectors": [
-    "Deep tech"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 55,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Tributary – Discover who influenced your favorite musicians",
-   "link": "https://tributary.music/",
-   "date": "2026-10-24T21:51:53Z",
-   "summary": "tributary.music uses artists' own accounts & critics' writing to determine an artist's influences. It pairs one song from the artist with one from the influence so you can directly hear similarities, differences, and how the sound evolved. I had been in a bit of a funk finding new music to listen to. Spotify's Discover Weekly lost its charm for me a while ago. This led me to start digging into the influences of some of my favorite artists to see if I'd like their music too. I did. I then wanted to scale that so it wasn't so much manual work. Claude & ChatGPT did most of the heavy lifting aroun",
-   "source": "Show HN",
-   "company": "Tributary",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: WhatsApp Bridge for those with their own VPS",
-   "link": "https://github.com/vid-t/whatsapp-bridge",
-   "date": "2026-10-24T21:41:02Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "WhatsApp Bridge for those with their own VPS",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Perch, a calm Mac app for juggling Claude Code sessions",
-   "link": "https://perchfocus.com/",
-   "date": "2026-10-24T21:01:39Z",
-   "summary": "I'm an engineer, but I also hate using tools that make things overcomplicated. It's also tough with the new pace of AI-driven development to really get into the flow state, and maintain (still needed!) focus on 1 thing. So I built a tool that I actually want to use every day. Curious if others would find this useful, too, or have any feedback? Like if it's nearly there, what changes would make this a win for your workflow? Details: - It's a Mac app (Apple Silicon) that runs your Claude Code sessions side by side. Each piece of work gets a \"context\" with its own session, next steps, status, PRs",
-   "source": "Show HN",
-   "company": "Perch, a calm Mac app for juggling Claude Code sessions",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Claude Code(and others) embedded in your app",
-   "link": "https://github.com/gtanczyk/genaicode",
-   "date": "2026-10-24T20:54:27Z",
-   "summary": "I started this project in 2024 when I got fascinated with LLMs, and what I did was a coding agent (CLI -> interactive -> GUI). I also added an integration with Vite for having it embedded inside my apps(mostly games). Few months ago I pivoted it to become a low profile AI provider wrapper library (think jQuery for LLM usage), because I realized there is no point to have custom coding agent. Recently I did yet another pivot, and now it is a solution that allows you to embed Claude Code inside of your app, and use it directly from there for 1. development, 2. every day ops and automate the tasks",
-   "source": "Show HN",
-   "company": "Claude Code(and others) embedded in your app",
-   "sectors": [
-    "AI infrastructure",
-    "Developer tools"
-   ],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 65,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Bringing in usb3 to raspberry pico [open hardware]",
-   "link": "https://github.com/kelu124/rp569",
-   "date": "2026-10-24T20:50:23Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Bringing in usb3 to raspberry pico [open hardware]",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Steal My Bitcoin",
-   "link": "https://stealmybitcoin.com/",
-   "date": "2026-10-24T20:30:31Z",
-   "summary": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun!",
-   "source": "Show HN",
-   "company": "Steal My Bitcoin",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
-  },
-  {
-   "title": "Show HN: Wasi-Python – CPython, NumPy, and Pandas in a WebAssembly Sandbox",
-   "link": "https://github.com/ClayGendron/wasi-python",
-   "date": "2026-10-24T20:19:19Z",
-   "summary": "",
-   "source": "Show HN",
-   "company": "Wasi-Python",
-   "sectors": [],
-   "amount": "",
-   "stage": "",
-   "signalType": "Product launch",
-   "score": 45,
-   "firstSeen": "2026-10-25T12:52:47.335Z"
   }
  ]
 }
